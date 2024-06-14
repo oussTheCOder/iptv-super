@@ -1,0 +1,329 @@
+  {   
+    
+  "meta-data": {
+    "title": "Best IPTV Abonnement",
+    "description": "Free Trial Test, Abonnement Starts with 14.99€, access +24.000 channels and 160.000 movies and series with 24/7 support"
+  },
+  "navigation": [
+    {
+      "id": "0",
+      "url": "/",
+      "title": "Home"
+    },
+    {
+      "id": "1",
+      "url": "/#pricing",
+      "title": "Pricing"
+    },
+    {
+      "id": "2",
+      "url": "/installation-guide",
+      "title": "Installation Guide"
+    }
+  ],
+    "hero-heading":"Explore Best IPTV in europe",
+    "hero-sub-heading":"Sign up now and instantly unlock access to over 24,000 live channels and 150,000 movies & shows. Elevate your viewing experience today!",
+    "button-buy":"Get Started",
+    "trial-btn":"Free Trial Test",
+    "sports-img":[
+      {
+        "id":"0",
+        "src":"/assets/sports/Copa-america-2024.webp"
+      },
+      {
+        "id":"1",
+        "src":"/assets/sports/Euro-2024.webp"
+      },
+      {
+        "id":"2",
+        "src":"/assets/sports/basketball.webp"
+      },
+      {
+        "id":"3",
+        "src":"/assets/sports/moto.webp"
+      },
+      {
+        "id":"4",
+        "src":"/assets/sports/toro.webp"
+      },
+      {
+        "id":"5",
+        "src":"/assets/sports/formula-one.webp"
+      },
+      {
+        "id":"6",
+        "src":"/assets/sports/tennis.webp"
+      }
+    ],
+    "channels-title":"Helping People Unlock Endless Entertainment and Relaxation",
+    "channels":[
+      {
+        "id":"0",
+        "logo":"/assets/channels/german-channels/3SAT.webp"
+      },
+      {
+        "id":"1",
+        "logo":"/assets/channels/german-channels/ARD-1.webp"
+      },
+      {
+        "id":"2",
+        "logo":"/assets/channels/german-channels/kabel-eins.webp"
+      },
+      {
+        "id":"3",
+        "logo":"/assets/channels/german-channels/RTL.webp"
+      },
+      {
+        "id":"4",
+        "logo":"/assets/channels/german-channels/SAT.1.webp"
+      },
+      {
+        "id":"5",
+        "logo":"/assets/channels/german-channels/vox.webp"
+      },
+      {
+        "id":"6",
+        "logo":"/assets/channels/german-channels/ZDF.webp"
+      },
+      {
+        "id":"7",
+        "logo":"/assets/channels/intern/bein-sport.webp"
+      },
+      {
+        "id":"8",
+        "logo":"/assets/channels/intern/apple-tv.webp"
+      },
+      {
+        "id":"9",
+        "logo":"/assets/channels/intern/hbo-max.webp"
+      },
+      {
+        "id":"10",
+        "logo":"/assets/channels/intern/netflix.webp"
+      },
+      {
+        "id":"11",
+        "logo":"/assets/channels/intern/premier-league.webp"
+      },
+      {
+        "id":"12",
+        "logo":"/assets/channels/intern/prime-video.webp"
+      },
+      {
+        "id":"13",
+        "logo":"/assets/channels/intern/sky-sport.webp"
+      },
+      {
+        "id":"14",
+        "logo":"/assets/channels/intern/hulu.webp"
+      }
+    ],
+    "services-heading":"Reliable IPTV with nextIPTV",
+    "services-sub-heading":"Enjoy uninterrupted, high-quality streaming with 24/7 support",
+    "services-mainDiv-title":"Be confortable",
+    "services-mainDiv-description":"Tired of your provider ignoring you and constant buffering? Try next IPTV UK. Enjoy reliable, high-quality streaming with 24/7 support to assist you anytime.",
+    "services-mainDiv-list":[
+      {
+        "id":"0",
+        "checkImg":"/assets/check.svg",
+        "listItem":"Access to ALL PPV events"
+      },
+      {
+        "id":"1",
+        "checkImg":"/assets/check.svg",
+        "listItem":"Access to ALL sports channels"
+      },
+      {
+        "id":"2",
+        "checkImg":"/assets/check.svg",
+        "listItem":"Movies/Series library getting updated weekly"
+      },
+      {
+        "id":"3",
+        "checkImg":"/assets/check.svg",
+        "listItem":"Can be installed on any APP or DEVICE (Literally!)"
+      }
+    ],
+    "benefits":[
+        {
+            "id": "0",
+            "title": "7-day Money-Back Gurantee",
+            "text": "Experience our abonnement iptv service risk-free with our 7-day money-back guarantee, ensuring your satisfaction or a hassle-free refund within the first week of your subscription.",
+            "backgroundUrl": "/assets/benefits/card-1.svg",
+            "iconUrl":"/assets/benefits/icon-1.svg",
+            "imageUrl":"/assets/benefits/image-2.webp"
+          },
+          {
+            "id": "1",
+            "title": "4K and 8k Quality",
+            "text": "Enjoy stunning 4K and 8K quality streaming on our website, delivering unparalleled clarity and detail for an immersive viewing experience like never before.",
+            "backgroundUrl": "/assets/benefits/card-2.svg",
+            "iconUrl":"/assets/benefits/icon-2.svg",
+            "imageUrl":"/assets/benefits/image-2.webp",
+            "light": true
+          },
+          {
+            "id": "2",
+            "title": "No Buffering",
+            "text": "Enjoy uninterrupted streaming with our no-buffering feature, ensuring smooth playback without frustrating pauses or interruptions, so you can immerse yourself in your favorite content without any hassle",
+            "backgroundUrl": "/assets/benefits/card-3.svg",
+            "iconUrl":"/assets/benefits/icon-3.svg",
+            "imageUrl":"/assets/benefits/image-2.webp"
+          },
+          {
+            "id": "3",
+            "title": "Easy to setup",
+            "text": "Get started effortlessly with our easy setup feature, allowing you to quickly and seamlessly begin enjoying our service without any complicated installation or configuration steps.",
+           "backgroundUrl": "/assets/benefits/card-4.svg",
+           "iconUrl":"/assets/benefits/icon-4.svg",
+            "imageUrl":"/assets/benefits/image-2.webp",
+            "light": true
+          },
+          {
+            "id": "4",
+            "title": "24/7 Support",
+            "text": "Experience peace of mind with our 24/7 support feature, providing round-the-clock assistance to address any questions or concerns you may have, ensuring a smooth and reliable streaming experience.",
+           "backgroundUrl": "/assets/benefits/card-4.svg",
+           "iconUrl":"/assets/benefits/icon-4.svg",
+            "imageUrl":"/assets/benefits/image-2.webp",
+            "light": true
+          },
+          {
+            "id": "5",
+            "title": "Satisfaction Guaranteed",
+            "text": "Your satisfaction is guaranteed. We strive to provide you with the best streaming experience, and if you're not fully satisfied, we'll work to make it right or provide a refund.",
+           "backgroundUrl": "/assets/benefits/card-4.svg",
+           "iconUrl":"/assets/benefits/icon-4.svg",
+            "imageUrl":"/assets/benefits/image-2.webp",
+            "light": true
+          }
+      
+    ],
+    "pricing-heading":"Get started with NEXT IPTV",
+    "pricing-sub-heading":"All in one package",
+    "pricing-currency":"€",
+    "pricing-list":[
+      {
+        "id": "0",
+        "title": "One Month",
+        "description": "14.99€/Mo Instead of 15.99€/Mo",
+        "price": "14.99",
+        "features": [
+          "All devices are supported",
+          "Netflix, HBO, Hulu, Videoland, Disney and more ",
+          "+24.000 channels",
+          "+160.000 movies and series",
+          "All top sport channels",
+          "Fast and stable server",
+          "M3U MAG ENIGMA2",
+          "Anti freeze technology",
+          "24/7 support"
+        ]
+      },
+      {
+        "id": "1",
+        "title": "3 Months",
+        "description": "9.99€/Mo",
+        "price": "29.99",
+        "features": [
+          "All devices are supported",
+          "Netflix, HBO, Hulu, Videoland, Disney and more  ",
+          "+24.000 channels",
+          "+160.000 movies and series",
+          "All top sport channels",
+          "Fast and stable server",
+          "M3U MAG ENIGMA2",
+          "Anti freeze technology",
+          "24/7 support"
+        ]
+      },
+      {
+        "id": "2",
+        "title": "6 months",
+        "description": "6.66€/Mo",
+        "price": "39.99",
+        "features": [
+          "All devices are supported",
+          "Netflix, HBO, Hulu, Videoland, Disney and more ",
+          "+24.000 channels",
+          "+160.000 movies and series",
+          "All top sport channels",
+          "Fast and stable server",
+          "M3U MAG ENIGMA2",
+          "Anti freeze technology",
+          "24/7 support"
+        ]
+      },
+      {
+        "id": "3",
+        "title": "1 Year",
+        "description": "3.99€/Mo",
+        "price": "59.99",
+        "features": [
+          "All devices are supported",
+          "Netflix, HBO, Hulu, Videoland, Disney and more ",
+          "+24.000 channels",
+          "+160.000 movies and series",
+          "All top sport channels",
+          "Fast and stable server",
+          "M3U MAG ENIGMA2",
+          "Anti freeze technology",
+          "24/7 support"
+        ]
+      }
+    ],
+    "setup-heading":"how it work ?",
+    "setup-steps":[
+      {
+        "id": "0",
+        "title": "Place your order",
+        "text": "Place your order by choosing your preferred subscription period : 1, 3, 6 or 12 months.",
+        "date": "May 2023",
+        "status": "done",
+        "imageUrl":"/assets/roadmap/image-1.webp",
+        "colorful": true
+      },
+      {
+        "id": "1",
+        "title": "Login credentials",
+        "text": "Get your abonnement iptv login credentials that was delivered via email address.You also get a tutorial guide.",
+        "date": "May 2023",
+        "status": "progress",
+        "imageUrl": "/assets/roadmap/image-2.webp"
+      },
+      {
+        "id": "2",
+        "title": "Enjoy watching!",
+        "text": "Enjoy all channels,movies and series now!",
+        "date": "May 2023",
+        "status": "done",
+        "imageUrl": "/assets/roadmap/image-3.webp"
+      }
+    ],
+    "footer-menu-title":"menu",
+    "footer-contact-title":"contacts",
+    "footer-menu":[
+      {
+        "id":"0",
+        "link":"Home"
+      },
+     
+      {
+        "id":"1",
+        "link":"Pring"
+      }
+    ],
+    "footer-contact":[
+      {
+        "id":"0",
+        "link":"digital8ouss@gmail.com",
+        "href":"mailto:digital8ouss@gmail.com"
+      },
+      {
+        "id":"1",
+        "link":"+17739456587",
+        "href":"https://wa.me/+17739456587"
+      }
+     
+    ]
+  }

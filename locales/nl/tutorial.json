@@ -1,0 +1,121 @@
+{   
+    "meta-tag": {
+    "title": "IPTV Installatiegids",
+    "description": "Klik en volg deze stappen om IPTV op elk apparaat in te stellen. Het proces is eenvoudig en duidelijk."
+    },
+    "navigation": [
+        {
+          "id": "0",
+          "url": "/",
+          "title": "Home"
+        },
+        {
+          "id": "1",
+          "url": "/#pricing",
+          "title": "Prijzen"
+        },
+        {
+          "id": "2",
+          "url": "/installation-guide",
+          "title": "Installatiegids"
+        }
+      ],
+    "button-buy": "Iptv kopen",
+    "trial-btn": "Gratis Proefversie",
+    "tutorial-heading": "Hoe IPTV instellen op elk apparaat?",
+    "tutorial-description":"Met tal van IPTV-apparaten beschikbaar voor het streamen van live-tv, is het eenvoudig om IPTV op elk apparaat te installeren, en ondersteuning is beschikbaar indien nodig.",
+    "tutorial-support":"Hulp nodig",
+    "tutorial-options":
+    [
+    {
+        "id":"0",
+        "option":"PC & MAC",
+        "option-description":"IPTV installeren op een pc is eenvoudig met meerdere beschikbare apps. Je kunt een van deze apps kiezen",
+        "option-list":[
+            "VLC Media Player",
+            "IPTV Smarters",
+            "GSE SMART IPTV"
+        ]
+    },
+    {
+        "id":"1",
+        "option":"SMART TV",
+        "option-description":"IPTV installeren op een SMART TV is eenvoudig met meerdere beschikbare apps. Je kunt een van deze apps kiezen",
+        "option-list":[
+            "IPTV SMARTERS PRO",
+            "IBO PLAYER",
+            "IBOPLAYER PRO",
+            "SMART IPTV"
+        ]
+    },
+    {
+        
+        "id":"2",
+        "option":"ANDROID",
+        "option-description":"IPTV installeren op een ANDROID-apparaat is eenvoudig met meerdere beschikbare apps. Je kunt een van deze apps kiezen",
+        "option-list":[
+            "IPTV SMARTERS PRO",
+            "IBO PLAYER",
+            "IBOPLAYER PRO",
+            "SMART IPTV"
+        ]
+
+    },
+    {
+        
+        "id":"3",
+        "option":"APPLE / IOS",
+        "option-description":"IPTV installeren op een Apple/IOS-apparaat is eenvoudig met meerdere beschikbare apps. Je kunt een van deze apps kiezen",
+        "option-list":[
+            "IPTV SMARTERS PRO",
+            "IBO PLAYER",
+            "IBOPLAYER PRO",
+            "GSE SMART IPTV"
+        ]
+
+    },
+    {
+        "id":"4",
+        "option":"FireStick",
+        "option-description":"IPTV installeren op een FireStick TV is eenvoudig, maar met meerdere stappen. Er zijn meerdere beschikbare apps, je kunt een van deze apps kiezen. Voor betere hulp neem contact met ons op",
+        "option-list":[
+            "IPTV SMARTERS PRO",
+            "Lxtream"
+        ]
+    },
+    {
+        "id":"5",
+        "option":"MAG",
+        "option-description":"IPTV installeren op een MAG is eenvoudig, volg gewoon deze stappen",
+        "option-list":[
+            "Stap 01: Stuur ons het MAC-adres van je MAG via WhatsApp of Gmail",
+            "Stap 02: Na betaling sturen wij je de portallink"
+        ]
+    }
+    ],
+    "footer-menu-title":"menu",
+    "footer-contact-title":"contacten",
+    "footer-menu":[
+      {
+        "id":"0",
+        "link":"Home"
+      },
+      {
+        "id":"1",
+        "link":"Plannen"
+      }
+    ],
+    "footer-contact":[
+      {
+        "id":"0",
+        "link":"digital8ouss@gmail.com",
+        "href":"mailto:digital8ouss@gmail.com"
+      },
+      {
+        "id":"1",
+        "link":"+17739456587",
+        "href":"https://wa.me/+17739456587"
+      }
+     
+    ]
+}

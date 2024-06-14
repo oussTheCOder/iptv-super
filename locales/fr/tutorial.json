@@ -1,0 +1,121 @@
+{   
+    "meta-tag": {
+      "title": "Guide de Configuration IPTV",
+      "description": "Cliquez et suivez ces étapes pour configurer IPTV sur n'importe quel appareil. Le processus est simple et direct."
+    },
+    "navigation": [
+        {
+          "id": "0",
+          "url": "/",
+          "title": "Accueil"
+        },
+        {
+          "id": "1",
+          "url": "/#pricing",
+          "title": "Tarifs"
+        },
+        {
+          "id": "2",
+          "url": "/installation-guide",
+          "title": "Guide d'installation"
+        }
+      ],
+    "button-buy": "Abonnez-vous",
+    "trial-btn": "Essai Gratuit",
+    "tutorial-heading": "Comment configurer l'IPTV sur n'importe quel appareil ?",
+    "tutorial-description":"Avec de nombreux appareils IPTV disponibles pour diffuser la télévision en direct, il est simple d'installer l'IPTV sur n'importe quel appareil, et le support est facilement disponible si nécessaire.",
+    "tutorial-support":"Besoin d'aide",
+    "tutorial-options":
+    [
+    {
+        "id":"0",
+        "option":"PC & MAC",
+        "option-description":"Installer l'IPTV sur un PC est facile avec plusieurs applications disponibles, vous pouvez choisir l'une de ces applications",
+        "option-list":[
+            "VLC Media Player",
+            "IPTV Smarters",
+            "GSE SMART IPTV"
+        ]
+    },
+    {
+        "id":"1",
+        "option":"SMART TV",
+        "option-description":"Installer l'IPTV sur une SMART TV est facile avec plusieurs applications disponibles, vous pouvez choisir l'une de ces applications",
+        "option-list":[
+            "IPTV SMARTERS PRO",
+            "IBO PLAYER",
+            "IBOPLAYER PRO",
+            "SMART IPTV"
+        ]
+    },
+    {
+        
+        "id":"2",
+        "option":"ANDROID",
+        "option-description":"Installer l'IPTV sur un appareil ANDROID est facile avec plusieurs applications disponibles, vous pouvez choisir l'une de ces applications",
+        "option-list":[
+            "IPTV SMARTERS PRO",
+            "IBO PLAYER",
+            "IBOPLAYER PRO",
+            "SMART IPTV"
+        ]
+
+    },
+    {
+        
+        "id":"3",
+        "option":"APPLE / IOS",
+        "option-description":"Installer l'IPTV sur un appareil Apple/IOS est facile avec plusieurs applications disponibles, vous pouvez choisir l'une de ces applications",
+        "option-list":[
+            "IPTV SMARTERS PRO",
+            "IBO PLAYER",
+            "IBOPLAYER PRO",
+            "GSE SMART IPTV"
+        ]
+
+    },
+    {
+        "id":"4",
+        "option":"FireStick",
+        "option-description":"Installer l'IPTV sur un FireStick TV est facile mais avec plusieurs étapes, il y a plusieurs applications disponibles, vous pouvez choisir l'une de ces applications, pour une meilleure aide, contactez-nous",
+        "option-list":[
+            "IPTV SMARTERS PRO",
+            "Lxtream"
+        ]
+    },
+    {
+        "id":"5",
+        "option":"MAG",
+        "option-description":"Installer l'IPTV sur un MAG est facile, suivez simplement ces étapes",
+        "option-list":[
+            "Étape 01 : Envoyez-nous l'adresse MAC de votre MAG via Whatsapp ou gmail",
+            "Étape 02 : Après avoir effectué le paiement, nous vous enverrons le lien du portail"
+        ]
+    }
+    ],
+    "footer-menu-title":"menu",
+    "footer-contact-title":"contacts",
+    "footer-menu":[
+      {
+        "id":"0",
+        "link":"Accueil"
+      },
+      {
+        "id":"1",
+        "link":"Forfaits"
+      }
+    ],
+    "footer-contact":[
+      {
+        "id":"0",
+        "link":"digital8ouss@gmail.com",
+        "href":"mailto:digital8ouss@gmail.com"
+      },
+      {
+        "id":"1",
+        "link":"+17739456587",
+        "href":"https://wa.me/+17739456587"
+      }
+     
+    ]
+}
