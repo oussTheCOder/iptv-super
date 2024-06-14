@@ -52,7 +52,7 @@ const Services = () => {
                     key={item.id}
                     className="flex items-start py-4 border-t border-n-6"
                   >
-                    <Image width={24} height={24} src={item.checkImg} />
+                    <Image width={24} height={24} src={item.checkImg} alt='checkImg'/>
                     <p className="ml-4">{item.listItem}</p>
                   </li>
                 ))}
