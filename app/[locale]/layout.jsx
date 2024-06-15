@@ -1,3 +1,4 @@
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import './globals.css';
 import { Inter } from 'next/font/google';
 import i18nConfig from '@/i18nConfig';
@@ -22,6 +23,7 @@ export default function RootLayout({ children, params: { locale } }) {
   return (
     <html lang={locale} dir={dir(locale)}>
       <body className={inter.className}>{children}</body>
+      <SpeedInsights />
     </html>
   );
 }
