@@ -23,7 +23,7 @@ import robot from "./hero/robot.webp";
 import heroBackground from "./hero/hero-background.webp";
 import lines from "./pricing/lines.svg";
 import stars from "./pricing/stars.svg";
-import coins from "./roadmap/coins.png";
+import coins from "./roadmap/coins.webp";
 import done from "./roadmap/done.svg";
 import hero from "./roadmap/hero.webp";
 import roadmap1 from "./roadmap/image-1.webp";
@@ -69,7 +69,6 @@ export {
   chromecast,
   sliders04,
   loading,
-
   robot,
   heroBackground,
   lines,
