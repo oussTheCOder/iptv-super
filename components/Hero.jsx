@@ -1,17 +1,14 @@
 'use client'
-import Image from 'next/image'
-import { heroBackground} from "@/public/assets";
 import Button from "./Button";
 import Section from "./Section";
 import { BackgroundCircles, BottomLine } from "./design/Hero";
-import { useRef } from "react";
 import ChannelsLogos from "./ChannelsLogos";
 import { useTranslation } from 'react-i18next';
 import SwiperMovies from './SwiperMovies';
 import SwiperSeries from './SwiperSeries';
 const Hero = () => {
      const { t } = useTranslation();
-    const parallaxRef = useRef(null);
+    // const parallaxRef = useRef(null);
   
     return (
       <Section
@@ -21,8 +18,8 @@ const Hero = () => {
         customPaddings
         id="hero"
       >
-        <div className="container relative" ref={parallaxRef}>
-          <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
+        <div className="container relative" >
+          <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 ">
             <h1 className="h1 mb-6">
              {t('hero-heading')}
               <span className="inline-block relative">
@@ -42,12 +39,12 @@ const Hero = () => {
             <Button href="/#pricing" white>
               {t('button-buy')}
             </Button>
-            <Button href="https://wa.me/+17739456587" target="_blank" >
+            <Button href="https://wa.me/+19295603400" target="_blank" >
               {t('trial-btn')}
             </Button>
           </div>
           <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
-            <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
+            {/* <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
               <Image
                 src={heroBackground}
                 className="w-full"
@@ -55,14 +52,12 @@ const Hero = () => {
                 height={1800}
                 alt="hero"
               />
-            </div>
+            </div> */}
             <BackgroundCircles />
           <div className='mb-6'>
-            <h5 className="tagline mb-6 text-center text-n-1/50"> Movies</h5>
             <SwiperMovies />
           </div>
           <div className='mb-2'>
-            <h5 className="tagline mb-6 text-center text-n-1/50"> Series</h5>
             <SwiperSeries />
           </div>
           </div>
