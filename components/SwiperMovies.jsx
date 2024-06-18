@@ -33,6 +33,9 @@ export default  function SwiperMovies(){
     return (
         <>
         <div className="container" >
+        <h5 className="tagline mb-6 text-center text-n-1/50">
+        Movies
+      </h5>
             <Swiper
             spaceBetween={10}
             autoplay={{

@@ -39,8 +39,6 @@ export default function LanguageChanger() {
   return (
     <select onChange={handleChange} className='p-2 border border-slate-600 rounded-sm' value={currentLocale}>
       <option className='p-2 inline-block' value="en">En</option>
-      <option className='p-2 inline-block' value="nl">Nl</option>
-      <option className='p-2 inline-block' value="fr">Fr</option>
       <option className='p-2 inline-block' value="de">De</option>
     </select>
   );
