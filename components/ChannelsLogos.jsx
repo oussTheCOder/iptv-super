@@ -4,9 +4,6 @@ import {useTranslation} from 'react-i18next';
 import {Swiper , SwiperSlide} from 'swiper/react'
 import {Autoplay } from 'swiper/modules';
 import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
 
 
 const ChannelsLogos = ({ className }) => {
@@ -15,9 +12,12 @@ const ChannelsLogos = ({ className }) => {
   return (
        
       <div className={className}>
-      <h5 className="tagline mb-6 text-center text-n-1/50">
+      <h2 className="tagline mb-4 text-center text-n-1/50">
         {t("channels-title")}
-      </h5>
+      </h2>
+      <p className='tagline mb-6 text-center text-n-1/50'>
+        {t("channels-description")}
+      </p>
       <Swiper
          spaceBetween={10}
          autoplay={{
@@ -38,20 +38,19 @@ const ChannelsLogos = ({ className }) => {
                  slidesPerView: 10,
              }
          }}>
-      <ul className="flex">
         {channelsLogos.map((logo) => (
           <SwiperSlide
           key={logo.id}>
-            <li
+            <span
               className="flex items-center justify-center flex-1 h-[8.5rem]"
               key={logo.id}
             >
               <Image src={logo.logo} width={134} height={28} alt={logo.logo} />
-            </li>
+              </span>
           </SwiperSlide>
+          
 
         ))}
-      </ul>
       </Swiper>
     </div>
   );

@@ -36,10 +36,10 @@ const Hero = () => {
             <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
              {t('hero-sub-heading')}
             </p>
-            <Button href="/#pricing" white>
+            <Button href="#pricing" white>
               {t('button-buy')}
             </Button>
-            <Button href="https://wa.me/+19295603400" target="_blank" >
+            <Button href={t('whatsApp-link')} target="_blank" >
               {t('trial-btn')}
             </Button>
           </div>

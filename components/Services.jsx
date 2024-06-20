@@ -34,7 +34,7 @@ const Services = () => {
               <Image
                 className="rounded-md w-full h-full object-cover"
                 width={800}
-                alt="Family watch tv"
+                alt="Family Watch: Der beste IPTV Anbieter in Deutschland"
                 height={730}
                 src='/assets/free-family.webp'
               />
@@ -42,10 +42,10 @@ const Services = () => {
             </div>
 
             <div className="relative z-1 max-w-[20rem] ml-auto">
-              <h4 className="h4 mb-4">{t('services-mainDiv-title')}</h4>
+              {/* <h4 className="h4 mb-4">{t('services-mainDiv-title')}</h4>
               <p className="body-2 mb-[3rem] text-n-3">
               {t('services-mainDiv-description')}
-              </p>
+              </p> */}
               <ul className="body-2">
                 {servicesMainDivList.map((item, index) => (
                   <li

@@ -5,9 +5,6 @@ import Image from "next/image";
 import {Swiper , SwiperSlide} from 'swiper/react'
 import {Autoplay } from 'swiper/modules';
 import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
 
 
 const fetchMovies = async () =>{
@@ -33,9 +30,9 @@ export default  function SwiperMovies(){
     return (
         <>
         <div className="container" >
-        <h5 className="tagline mb-6 text-center text-n-1/50">
+        <span className="tagline mb-6 text-center text-n-1/50">
         Movies
-      </h5>
+      </span>
             <Swiper
             spaceBetween={10}
             autoplay={{

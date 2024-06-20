@@ -6,9 +6,7 @@ import Image from 'next/image';
 import {Swiper , SwiperSlide} from 'swiper/react'
 import {Autoplay } from 'swiper/modules';
 import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
+
 
 const fetchSeries = async () =>{
     const url = 'https://api.themoviedb.org/3/tv/top_rated?api_key=d2d9025e7f101b3c88abb61fdaf46a27&language=en-US&page=1';
@@ -33,9 +31,9 @@ export default function SwiperSeries(){
   
     return (
         <>
-            <h5 className="tagline mb-6 text-center text-n-1/50">
+            <span className="tagline mb-6 text-center text-n-1/50">
             Series
-            </h5>
+            </span>
             <Swiper
             spaceBetween={10}
             autoplay={{

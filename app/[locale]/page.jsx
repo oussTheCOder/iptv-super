@@ -26,9 +26,8 @@ export default async function Page({params: {locale}}){
         <Hero />
         <Services />
         <Pricing />
-        <Benefits />
         <Roadmap />
-        {/* <Collaboration /> */}
+        <Benefits />
         <Footer />
       </div>
       <ButtonGradient />

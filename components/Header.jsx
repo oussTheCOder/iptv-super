@@ -11,7 +11,6 @@ const Header = () => {
     const [openNavigation , setOpenNavigation] = useState (false);
     const {t} = useTranslation();
     const navItems = t('navigation',{returnObjects:true});
-    console.log(navItems)
     
   const toggleNavigation = () => {
     if (openNavigation) {
@@ -67,6 +66,7 @@ const Header = () => {
                 className="ml-auto  lg:hidden"
                 px="px-3"
                 onClick={toggleNavigation}
+                name='toggle btn'
                 >
                 <MenuSvg openNavigation={openNavigation} />
             </Button>

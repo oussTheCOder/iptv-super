@@ -1,11 +1,14 @@
+'use client'
 import Image from 'next/image'
 import Section from "./Section";
 import { smallSphere, stars } from "@/public/assets";
 import Heading from "./Heading";
 import PricingList from "./PricingList";
 import { LeftLine, RightLine } from "./design/Pricing";
+import { useTranslation } from 'react-i18next';
 
 const Pricing = () => {
+  const {t} = useTranslation();
     return (
       <Section className="overflow-hidden" >
         <div className="container relative z-2">
@@ -29,8 +32,9 @@ const Pricing = () => {
           </div>
   
           <Heading
-            tag="Get started with Brainwave"
-            title="Get started with NEXT IPTV"
+           
+            title={t("pricing-heading")}
+            text={t("pricing-sub-heading")}
             id = "pricing"
           />
   

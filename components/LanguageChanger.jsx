@@ -37,9 +37,12 @@ export default function LanguageChanger() {
   };
 
   return (
-    <select onChange={handleChange} className='p-2 border border-slate-600 rounded-sm' value={currentLocale}>
-      <option className='p-2 inline-block' value="en">En</option>
-      <option className='p-2 inline-block' value="de">De</option>
-    </select>
+    <>
+      <label for="language" className='hidden'>English</label>
+      <select onChange={handleChange} name='language' className='p-2 border border-slate-600 rounded-sm' value={currentLocale}>
+        <option className='p-2 inline-block' value="en">EN</option>
+        <option className='p-2 inline-block' value="de">DE</option>
+      </select>
+    </>
   );
 }

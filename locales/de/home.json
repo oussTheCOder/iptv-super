@@ -1,8 +1,9 @@
+
 { 
  
   "meta-data": {
-    "title": "Bestes IPTV Abonnement",
-    "description": "Kostenlose Testversion, Abonnement beginnt bei 14,99€, Zugang zu über 24.000 Kanälen und 160.000 Filmen und Serien mit 24/7 Support"
+    "title": "IPTV kaufen - Beste IPTV anbieter in Deutschland | Alle Sender Freischalten",
+    "description": "Erleben Sie das ultimative Fernseherlebnis mit unserem IPTV Service. Freischalten Sie alle Sender und genießen Sie über 160000 Filme und Serien."
   }
   ,
   
@@ -41,10 +42,12 @@
     }
   ],
   
-  "hero-heading": "Erkunden Sie das beste IPTV in Europa",
-  "hero-sub-heading": "Melden Sie sich jetzt an und erhalten Sie sofort Zugriff auf über 24.000 Live-Kanäle und 150.000 Filme & Serien. Verbessern Sie noch heute Ihr Fernseherlebnis!",
-  "button-buy": "Jetzt abonnieren",
+  "hero-heading": "IPTV kaufen - Alle Sender Freischalten",
+  "hero-sub-heading": "Erleben Sie das ultimative Fernseherlebnis mit unserem IPTV Service. Freischalten Sie alle Sender und genießen Sie über 160000 Filme und Serien.",
+  "button-buy": "IPTV kaufen",
+  "button-buy-now": "kaufe jetzt",
   "trial-btn": "Testen",
+  "whatsApp-link":"https://wa.me/+19295603400",
   "sports-img":[
     {
       "id":"0",
@@ -75,7 +78,8 @@
       "src":"/assets/sports/tennis.webp"
     }
   ],
-  "channels-title":"Menschen helfen, endlose Unterhaltung und Entspannung freizuschalten",
+  "channels-title":"Alle Sender Freischalten",
+  "channels-description":"Schalte über 24.000 Kanäle frei",
   "channels":[
     {
       "id":"0",
@@ -134,32 +138,54 @@
       "logo":"/assets/channels/intern/hulu.webp"
     }
   ],
-  "services-heading": "Zuverlässiges IPTV mit nextIPTV",
-  "services-sub-heading": "Genießen Sie unterbrechungsfreies, hochwertiges Streaming mit 24/7 Support",
+  "services-heading": "Beste IPTV Anbieter in Deutschland",
+  "services-sub-heading": "Erleben Sie die Zukunft des Fernsehens mit unserem erstklassigen IPTV Service! Unser IPTV kaufen bietet Ihnen eine riesige Auswahl an Kanälen, Filmen und Serien. Freuen Sie sich auf über 160000 Filme und Serien und genießen Sie die Vorteile eines stabilen Servers und 24/7 Kundenservice. Entdecken Sie, warum wir der beste IPTV Anbieter in Deutschland sind",
   "services-mainDiv-title": "Seien Sie bequem",
   "services-mainDiv-description": "Müde davon, dass Ihr Anbieter Sie ignoriert und ständig puffert? Probieren Sie next IPTV UK. Genießen Sie zuverlässiges, hochwertiges Streaming mit 24/7 Support, der Ihnen jederzeit zur Verfügung steht.",
   "services-mainDiv-list": [
     {
       "id": "0",
       "checkImg": "/assets/check.svg",
-      "listItem": "Zugang zu ALLEN PPV-Events"
+      "listItem": "Alle Sender Freischalten"
     },
     {
       "id": "1",
       "checkImg": "/assets/check.svg",
-      "listItem": "Zugang zu ALLEN Sportkanälen"
+      "listItem": "+24.000 Kanäle und +160.000 Filme und Serien"
     },
     {
       "id": "2",
       "checkImg": "/assets/check.svg",
-      "listItem": "Wöchentlich aktualisierte Film-/Serienbibliothek"
+      "listItem": "alle Sportkanäle verfügbar"
     },
     {
       "id": "3",
       "checkImg": "/assets/check.svg",
-      "listItem": "Kann auf jeder APP oder jedem GERÄT installiert werden (Wörtlich!)"
+      "listItem": "Wöchentlich aktualisierte Film-/Serienbibliothek"
+    },
+    {
+      "id": "4",
+      "checkImg": "/assets/check.svg",
+      "listItem": "kompatibel mit allen Geräten und allen Plattformen"
+    },
+    {
+      "id": "5",
+      "checkImg": "/assets/check.svg",
+      "listItem": "4K. HD. FHD. HEVC-Qualität"
+    },
+    {
+      "id": "6",
+      "checkImg": "/assets/check.svg",
+      "listItem": "schneller und stabiler Server"
+    },
+  
+    {
+      "id": "7",
+      "checkImg": "/assets/check.svg",
+      "listItem": "24/7 Kundensupport"
     }
   ],
+  "benefits-title":"Warum uns wählen?",
   "benefits": [
     {
       "id": "0",
@@ -199,29 +225,29 @@
       "id": "4",
       "title": "24/7 Support",
       "text": "Erleben Sie beruhigende Gewissheit mit unserer 24/7 Support-Funktion, die rund um die Uhr Unterstützung bietet, um alle Fragen oder Bedenken zu klären, die Sie haben könnten, und so ein reibungsloses und zuverlässiges Streaming-Erlebnis gewährleistet.",
-      "backgroundUrl": "/assets/benefits/card-4.svg",
-      "iconUrl": "/assets/benefits/icon-4.svg",
-      "imageUrl": "/assets/benefits/image-2.webp",
-      "light": true
+      "backgroundUrl": "/assets/benefits/card-5.svg",
+      "iconUrl": "/assets/benefits/icon-1.svg",
+      "imageUrl": "/assets/benefits/image-2.webp"
+      
     },
     {
       "id": "5",
       "title": "Zufriedenheit garantiert",
       "text": "Ihre Zufriedenheit ist garantiert. Wir bemühen uns, Ihnen das beste Streaming-Erlebnis zu bieten, und wenn Sie nicht vollständig zufrieden sind, werden wir uns bemühen, das Problem zu lösen oder eine Rückerstattung zu gewähren.",
-      "backgroundUrl": "/assets/benefits/card-4.svg",
-      "iconUrl": "/assets/benefits/icon-4.svg",
+      "backgroundUrl": "/assets/benefits/card-6.svg",
+      "iconUrl": "/assets/benefits/icon-2.svg",
       "imageUrl": "/assets/benefits/image-2.webp",
       "light": true
     }
   ],
-  "pricing-heading": "Starten Sie mit NEXT IPTV",
-  "pricing-sub-heading": "Alles in einem Paket",
+  "pricing-heading": "IPTV Deutschland - Unsere Preismodelle",
+  "pricing-sub-heading": "Wählen Sie das für Sie passende Preismodell und genießen Sie unser umfassendes IPTV-Angebot.",
   "pricing-currency": "€",
   "pricing-list": [
     {
       "id": "0",
-      "title": "Ein Monat",
-      "description": "14,99€/Mo statt 15,99€/Mo",
+      "title": "1 Monat",
+      "description": "Basis Plan",
       "price": "14.99",
       "features": [
         "Alle Geräte werden unterstützt",
@@ -238,7 +264,7 @@
     {
       "id": "1",
       "title": "3 Monate",
-      "description": "9,99€/Mo",
+      "description": "9,99€/Mo ",
       "price": "29.99",
       "features": [
         "Alle Geräte werden unterstützt",
@@ -255,7 +281,7 @@
     {
       "id": "2",
       "title": "6 Monate",
-      "description": "6,66€/Mo",
+      "description": "6,66€/Mo ",
       "price": "39.99",
       "features": [
         "Alle Geräte werden unterstützt",
@@ -272,7 +298,7 @@
     {
       "id": "3",
       "title": "1 Jahr",
-      "description": "3,99€/Mo",
+      "description": "3,99€/Mo ",
       "price": "59.99",
       "features": [
         "Alle Geräte werden unterstützt",
@@ -287,30 +313,30 @@
       ]
     }
   ],
-  "setup-heading": "Wie funktioniert es?",
+  "setup-heading": "IPTV alle Sender freischalten - So funktioniert es",
   "setup-steps": [
     {
       "id": "0",
-      "title": "Bestellen Sie",
-      "text": "Bestellen Sie, indem Sie Ihren bevorzugten Abonnementzeitraum wählen: 1, 3, 6 oder 12 Monate.",
-      "date": "Mai 2023",
+      "title": "Schritt 1: Bestellung aufgeben",
+      "text": "Wählen Sie Ihr Preismodell und geben Sie Ihre Bestellung auf.",
+      "date": "June 2024",
       "status": "done",
       "imageUrl": "/assets/roadmap/image-1.webp",
       "colorful": true
     },
     {
       "id": "1",
-      "title": "Anmeldedaten",
-      "text": "Erhalten Sie Ihre IPTV-Anmeldedaten, die per E-Mail zugestellt wurden. Sie erhalten auch eine Anleitung.",
-      "date": "Mai 2023",
+      "title": "Schritt 2: Warten auf Zugangsdaten",
+      "text": "Wir senden Ihnen Ihre Zugangsdaten per E-Mail zu.",
+      "date": "June 2024",
       "status": "progress",
       "imageUrl": "/assets/roadmap/image-2.webp"
     },
     {
       "id": "2",
-      "title": "Genießen Sie das Fernsehen!",
-      "text": "Genießen Sie jetzt alle Kanäle, Filme und Serien!",
-      "date": "Mai 2023",
+      "title": "Schritt 3: Einloggen und genießen",
+      "text": "Melden Sie sich mit Ihren Zugangsdaten an und beginnen Sie mit dem Streaming",
+      "date": "June 2024",
       "status": "done",
       "imageUrl": "/assets/roadmap/image-3.webp"
     }
@@ -332,11 +358,6 @@
       "id": "0",
       "link": "digital8ouss@gmail.com",
       "href": "mailto:digital8ouss@gmail.com"
-    },
-    {
-      "id": "1",
-      "link": "+17739456587",
-      "href": "https://wa.me/+17739456587"
     }
   ]
 }

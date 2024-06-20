@@ -1,17 +1,24 @@
-
+'use client'
 import Image from 'next/image'
 import { loading } from "@/public/assets";
+import { useTranslation } from 'react-i18next';
 
 const Generating = ({ className }) => {
+  const {t} = useTranslation();
   return (
-    <div
+    <a
       className={`flex items-center h-[3.5rem] px-6 bg-n-8/80 rounded-[1.7rem] ${
         className || ""
       } text-base`}
+      href={t('whatsApp-link')}
+      target='_blank'
     >
       <Image className="w-5 h-5 mr-4" src={loading} alt="Loading" />
-      Playlist is generating
-    </div>
+      <span>
+      {'playlist ' + t('trial-btn')} 
+      </span>
+    
+    </a>
   );
 };
 
