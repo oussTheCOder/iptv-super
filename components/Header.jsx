@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-import {useState , useEffect} from 'react'
+import {useState} from 'react'
 import Button from './Button'
 import { HamburgerMenu } from './design/Header'
 import MenuSvg from '@/public/assets/svg/MenuSvg'

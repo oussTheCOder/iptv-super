@@ -1,5 +1,4 @@
 'use client';
-
 import { useRouter } from 'next/navigation';
 import { usePathname } from 'next/navigation';
 import { useTranslation } from 'react-i18next';
@@ -38,7 +37,6 @@ export default function LanguageChanger() {
 
   return (
     <>
-      <label for="language" className='hidden'>English</label>
       <select onChange={handleChange} name='language' className='p-2 border border-slate-600 rounded-sm' value={currentLocale}>
         <option className='p-2 inline-block' value="en">EN</option>
         <option className='p-2 inline-block' value="de">DE</option>

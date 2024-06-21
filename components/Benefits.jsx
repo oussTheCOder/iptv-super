@@ -1,6 +1,5 @@
 'use client'
 import Image from 'next/image'
-
 import Heading from "./Heading";
 import Section from "./Section";
 import Arrow from "@/public/assets/svg/Arrow";
