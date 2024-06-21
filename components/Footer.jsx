@@ -18,9 +18,10 @@ const contactItems = t("footer-contact",{returnObjects:true});
           <h4 className='font-code text-xl uppercase text-n-1'>{t("footer-menu-title")}</h4>
 
           {menuItems.map((item) => (
-            <li>
+            <li
+            key={item.id}
+            >
               <a
-                key={item.id}
                 href={item.url}
                 className=" text-xs text-slate-300  justify-center "
               >
@@ -41,9 +42,10 @@ const contactItems = t("footer-contact",{returnObjects:true});
            </a>
           </li>
           {contactItems.map((item) => (
-            <li>
+            <li
+            key={item.id} >
             <a
-              key={item.id}
+              
                href={item.href}
               className=" text-xs text-slate-300  justify-center"
             >
