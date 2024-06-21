@@ -10,8 +10,6 @@
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.0.2",
-    "@sanity/image-url": "^1.0.2",
-    "@sanity/vision": "^3.39.0",
     "@vercel/speed-insights": "^1.0.12",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
@@ -29,7 +27,6 @@
     "react-i18next": "^14.1.2",
     "react-just-parallax": "^3.1.16",
     "react-router-dom": "^6.23.0",
-    "sanity": "^3.39.0",
     "scroll-lock": "^2.1.5",
     "sharp": "^0.33.4",
     "swiper": "^11.1.1",

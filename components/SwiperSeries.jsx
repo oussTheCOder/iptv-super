@@ -1,31 +1,27 @@
 
 'use client'
-import Section from './Section';
-import {useEffect , useState} from 'react'
+import {useEffect , useState ,cache} from 'react'
 import Image from 'next/image';
 import {Swiper , SwiperSlide} from 'swiper/react'
 import {Autoplay } from 'swiper/modules';
 import 'swiper/css';
 
 
-const fetchSeries = async () =>{
+const fetchSeries = cache(async () =>{
     const url = 'https://api.themoviedb.org/3/tv/top_rated?api_key=d2d9025e7f101b3c88abb61fdaf46a27&language=en-US&page=1';
-    const res = await fetch(url,
-        {
-           cache: 'default'
-        });
+    const res = await fetch(url)
     const data = await res.json();
     return data.results
-}
+})
 
 export default function SwiperSeries(){
     const [series , setSeries] = useState([]) ; 
 
     useEffect (()=>{
-        const getSeries = async()=>{
+        const getSeries = cache(async()=>{
             const results = await fetchSeries ();
             setSeries(results) ; 
-        }
+        })
         getSeries();
     },[])
   
