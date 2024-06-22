@@ -33,7 +33,8 @@ const PricingList = () => {
 
           <Button
             className="w-full mb-6"
-            href= "/" 
+            href= {item.url}
+            target="_blank"
             white
           >
            {t("button-buy-now")} 

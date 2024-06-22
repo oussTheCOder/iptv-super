@@ -209,6 +209,7 @@
         "title": "One Month",
         "description": "14.99€/Mo Instead of 15.99€/Mo",
         "price": "14.99",
+        "url": "https://digital-sales.mysellix.io/product/1-month",
         "features": [
           "All devices are supported",
           "Netflix, HBO, Hulu, Videoland, Disney and more ",
@@ -226,6 +227,7 @@
         "title": "3 Months",
         "description": "9.99€/Mo",
         "price": "29.99",
+        "url": "https://digital-sales.mysellix.io/product/3-months",
         "features": [
           "All devices are supported",
           "Netflix, HBO, Hulu, Videoland, Disney and more  ",
@@ -243,6 +245,7 @@
         "title": "6 months",
         "description": "6.66€/Mo",
         "price": "39.99",
+        "url": "https://digital-sales.mysellix.io/product/6-months",
         "features": [
           "All devices are supported",
           "Netflix, HBO, Hulu, Videoland, Disney and more ",
@@ -260,6 +263,7 @@
         "title": "1 Year",
         "description": "3.99€/Mo",
         "price": "59.99",
+        "url": "https://digital-sales.mysellix.io/product/1-year",
         "features": [
           "All devices are supported",
           "Netflix, HBO, Hulu, Videoland, Disney and more ",
