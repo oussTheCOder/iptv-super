@@ -62,8 +62,8 @@ const Roadmap = () => {
                         alt={item.title}
                       />
                     </div>
-                    <h4 className="h4 mb-4">{item.title}</h4>
-                    <p className="body-2 text-n-4">{item.text}</p>
+                    <h3 className="h4 mb-4">{item.title}</h3>
+                    <p className="body-2 text-n-3">{item.text}</p>
                   </div>
                 </div>
               </div>
