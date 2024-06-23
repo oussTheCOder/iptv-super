@@ -9,51 +9,52 @@ const menuItems = t("navigation",{returnObjects:true});
 const contactItems = t("footer-contact",{returnObjects:true});
   return (
     <Section crosses className="!px-0 !py-10 ">
-      <div className="container flex justify-center md:justify-between sm:items-start items-center gap-10 max-sm:flex-col">
+      <div className="container flex justify-center max-sm:flex-col gap-10 sm:justify-between ">
         <p className="caption text-n-3 lg:block">
           © {new Date().getFullYear()}. All rights reserved.
         </p>
-
-        <ul className="flex flex-col gap-2 flex-wrap">
-          <h4 className='font-code text-xl uppercase text-n-1'>{t("footer-menu-title")}</h4>
-
-          {menuItems.map((item) => (
-            <li
-            key={item.id}
-            >
-              <a
-                href={item.url}
-                className=" text-xs text-slate-300  justify-center "
+        <section >
+          <h4 className='font-code mb-2 text-xl uppercase text-n-1'>{t("footer-menu-title")}</h4>
+          <ul className="flex flex-col  flex-wrap">
+            {menuItems.map((item) => (
+              <li
+              key={item.id}
               >
-              {item.title}
-              </a>
-            </li>
-          ))}
-        </ul>
-        <ul className="flex flex-col gap-2 flex-wrap">
-          <h4 className='font-code text-xl uppercase text-n-1'>{t("footer-contact-title")}</h4>
-          <li>
-          <a
-              href={t("whatsApp-link")}
-              target='_blank'
-             className=" text-xs text-slate-300  justify-center"
-           >
-            Whatsapp
-           </a>
-          </li>
-          {contactItems.map((item) => (
+                <a
+                  href={item.url}
+                  className=" text-xs text-slate-300  justify-center "
+                >
+                {item.title}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+        <section>
+          <h4 className='font-code mb-2 text-xl uppercase text-n-1'>{t("footer-contact-title")}</h4>
+          <ul className="flex flex-col  flex-wrap">
             <li
-            key={item.id} >
+            key='0'>
             <a
-              
-               href={item.href}
+                href={t("whatsApp-link")}
+                target='_blank'
               className=" text-xs text-slate-300  justify-center"
             >
-             {item.link}
+              Whatsapp
             </a>
             </li>
-          ))}
-        </ul>
+            <li
+            key='2'>
+            <a
+                href={`mailto:${process.env.NEXT_PUBLIC_EMAIL_ADDRESS}`}
+                target='_blank'
+              className=" text-xs text-slate-300  justify-center"
+            >
+              {process.env.NEXT_PUBLIC_EMAIL_ADDRESS}
+            </a>
+            </li>
+          </ul>
+        </section>
       </div>
     </Section>
   );

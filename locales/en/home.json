@@ -12,7 +12,7 @@
     },
     {
       "id": "1",
-      "url": "/#pricing",
+      "url": "#pricing",
       "title": "Pricing"
     },
     {
@@ -317,18 +317,5 @@
         "id":"1",
         "link":"Pring"
       }
-    ],
-    "footer-contact":[
-      {
-        "id":"0",
-        "link":"digital8ouss@gmail.com",
-        "href":"mailto:digital8ouss@gmail.com"
-      },
-      {
-        "id":"1",
-        "link":"+17739456587",
-        "href":"https://wa.me/+17739456587"
-      }
-     
     ]
   }

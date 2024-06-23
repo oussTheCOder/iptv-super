@@ -15,7 +15,7 @@
     },
     {
       "id":"1",
-      "url":"/#pricing",
+      "url":"#pricing",
       "title":"Preise"
     },
     {
@@ -355,13 +355,6 @@
     {
       "id": "1",
       "link": "Pläne"
-    }
-  ],
-  "footer-contact": [
-    {
-      "id": "0",
-      "link": "digital8ouss@gmail.com",
-      "href": "mailto:digital8ouss@gmail.com"
     }
   ]
 }
