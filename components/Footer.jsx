@@ -44,7 +44,7 @@ const contactItems = t("footer-contact",{returnObjects:true});
             </a>
             </li>
             <li
-            key='2'>
+            key='1'>
             <a
                 href={`mailto:${process.env.NEXT_PUBLIC_EMAIL_ADDRESS}`}
                 target='_blank'
