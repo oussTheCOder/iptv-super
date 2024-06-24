@@ -5,7 +5,6 @@ import Hero from '@/components/Hero'
 import Benefits from '@/components/Benefits'
 import Pricing from '@/components/Pricing'
 import SportSection from '@/components/SportSection'
-import Compatibility from '@/components/compatibility'
 import Roadmap from '@/components/Roadmap'
 import Services from '@/components/Services'
 import Footer from '@/components/Footer'
@@ -29,7 +28,6 @@ export default async function Page({params: {locale}}){
         <Services />
         <Pricing />
         <SportSection />
-        {/* <Compatibility /> */}
         <Roadmap />
         <Benefits />
         <Footer />
