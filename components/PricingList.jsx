@@ -7,14 +7,15 @@ import { useTranslation } from 'react-i18next'
 const PricingList = () => {
   const {t}=useTranslation();
   const pricingList = t('pricing-list',{returnObjects : true})
+  const colorClasses = ['text-color-1', 'text-color-2' ,'text-color-3' ,'text-color-4']
   return (
     <div className="grid grid-cols-1 gap-[1rem] md:grid-cols-2" >
-      {pricingList.map((item) => (
+      {pricingList.map((item , index) => (
         <div
           key={item.id}
           className="w-[19rem] max-lg:w-full h-full px-6 bg-n-8 border border-n-6 rounded-[2rem] lg:w-auto even:py-14 odd:py-8 odd:my-4 [&>h4]:first:text-color-2 [&>h4]:even:text-color-1 [&>h4]:last:text-color-3"
         >
-          <h3 className="h4 mb-4">{item.title}</h3>
+          <h3 className={`h4 ${colorClasses[index]} mb-4`}>{item.title}</h3>
 
           <p className="body-2 min-h-[4rem] mb-3 text-n-1/50">
             {item.description}
@@ -24,9 +25,9 @@ const PricingList = () => {
             {item.price && (
               <>
                 <div className="h3">{t('pricing-currency')}</div>
-                <div className="text-[5.5rem] leading-none font-bold">
+                <p className={`text-[5.5rem]  leading-none font-bold`}>
                   {item.price}
-                </div>
+                </p>
               </>
             )}
           </div>

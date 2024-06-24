@@ -10,9 +10,7 @@ const contactItems = t("footer-contact",{returnObjects:true});
   return (
     <Section crosses className="!px-0 !py-10 ">
       <div className="container flex justify-center max-sm:flex-col gap-10 sm:justify-between ">
-        <p className="caption text-n-3 lg:block">
-          © {new Date().getFullYear()}. All rights reserved.
-        </p>
+       
         <section >
           <h4 className='font-code mb-2 text-xl uppercase text-n-1'>{t("footer-menu-title")}</h4>
           <ul className="flex flex-col  flex-wrap">
@@ -55,6 +53,9 @@ const contactItems = t("footer-contact",{returnObjects:true});
             </li>
           </ul>
         </section>
+        <p className="caption text-n-3 lg:block">
+          © {new Date().getFullYear()}. All rights reserved.
+        </p>
       </div>
     </Section>
   );
