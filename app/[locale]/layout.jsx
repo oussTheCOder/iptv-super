@@ -22,6 +22,9 @@ export function generateStaticParams() {
 export default function RootLayout({ children, params: { locale } }) {
   return (
     <html lang={locale} dir={dir(locale)}>
+       <head>
+        <script src="https://cdn.sellix.io/static/js/embed.js" async></script>
+      </head>
       <body className={inter.className}>{children}</body>
       <SpeedInsights />
     </html>
