@@ -1,8 +1,8 @@
   {   
     
   "meta-data": {
-    "title": "Best IPTV Abonnement",
-    "description": "Free Trial Test, Abonnement Starts with 14.99€, access +24.000 channels and 160.000 movies and series with 24/7 support"
+    "title": "IPTV Germany , Buy Iptv with digital iptv provider",
+    "description": "Buy Iptv Germany ? digital iptv provider is the king , Starts with 14.99€, access +24.000 channels and 160.000 movies and series with 24/7 support"
   },
   "navigation": [
     {
@@ -21,9 +21,9 @@
       "title": "Installation Guide"
     }
   ],
-    "hero-heading":"Explore Best IPTV in europe",
-    "hero-sub-heading":"Sign up now and instantly unlock access to over 24,000 live channels and 150,000 movies & shows. Elevate your viewing experience today!",
-    "button-buy":"Get Started",
+    "hero-heading":"Digital IPTV - Your Premier IPTV Provider in Germany",
+    "hero-sub-heading":"Buy Iptv Germany ? digital iptv provider is the king , Starts with 14.99€, access +24.000 channels and 160.000 movies and series with 24/7 support",
+    "button-buy":"Buy IPTV",
     "trial-btn":"Free Trial",
     "sports-img":[
       {
@@ -56,6 +56,7 @@
       }
     ],
     "channels-title":"Helping People Unlock Endless Entertainment and Relaxation",
+    "channels-description":"Access +24.000 live channels",
     "channels":[
       {
         "id":"0",
@@ -118,32 +119,51 @@
         "logo":"/assets/channels/intern/hulu.webp"
       }
     ],
-    "services-heading":"Reliable IPTV with nextIPTV",
+    "services-heading":"The best iptv provider in germany",
     "services-sub-heading":"Enjoy uninterrupted, high-quality streaming with 24/7 support",
-    "services-mainDiv-title":"Be confortable",
-    "services-mainDiv-description":"Tired of your provider ignoring you and constant buffering? Try next IPTV UK. Enjoy reliable, high-quality streaming with 24/7 support to assist you anytime.",
     "services-mainDiv-list":[
       {
-        "id":"0",
-        "checkImg":"/assets/check.svg",
-        "listItem":"Access to ALL PPV events"
+          "id": "0",
+          "checkImg": "/assets/check.svg",
+          "listItem": "Unlock All Channels"
       },
       {
-        "id":"1",
-        "checkImg":"/assets/check.svg",
-        "listItem":"Access to ALL sports channels"
+          "id": "1",
+          "checkImg": "/assets/check.svg",
+          "listItem": "+24,000 Channels and +160,000 Movies and Series"
       },
       {
-        "id":"2",
-        "checkImg":"/assets/check.svg",
-        "listItem":"Movies/Series library getting updated weekly"
+          "id": "2",
+          "checkImg": "/assets/check.svg",
+          "listItem": "All Sports Channels Available"
       },
       {
-        "id":"3",
-        "checkImg":"/assets/check.svg",
-        "listItem":"Can be installed on any APP or DEVICE (Literally!)"
+          "id": "3",
+          "checkImg": "/assets/check.svg",
+          "listItem": "Weekly Updated Movie/Series Library"
+      },
+      {
+          "id": "4",
+          "checkImg": "/assets/check.svg",
+          "listItem": "Compatible with All Devices and Platforms"
+      },
+      {
+          "id": "5",
+          "checkImg": "/assets/check.svg",
+          "listItem": "4K, HD, FHD, HEVC Quality"
+      },
+      {
+          "id": "6",
+          "checkImg": "/assets/check.svg",
+          "listItem": "Fast and Stable Server"
+      },
+      {
+          "id": "7",
+          "checkImg": "/assets/check.svg",
+          "listItem": "24/7 Customer Support"
       }
-    ],
+  ],
+  
     "benefits-title":"Why Choose Us ?",
     "benefits":[
         {
@@ -200,7 +220,7 @@
           }
       
     ],
-    "pricing-heading":"Get started with NEXT IPTV",
+    "pricing-heading":"Buy IPTV  with Digital IPTV",
     "pricing-sub-heading":"All in one package",
     "pricing-currency":"€",
     "pricing-list":[
@@ -209,7 +229,6 @@
         "title": "One Month",
         "description": "14.99€/Mo Instead of 15.99€/Mo",
         "price": "14.99",
-        "url": "https://digital-sales.mysellix.io/en/product/one-vip",
         "features": [
           "All devices are supported",
           "Netflix, HBO, Hulu, Videoland, Disney and more ",
@@ -227,7 +246,6 @@
         "title": "3 Months",
         "description": "9.99€/Mo",
         "price": "29.99",
-        "url": "https://digital-sales.mysellix.io/en/product/three-vip",
         "features": [
           "All devices are supported",
           "Netflix, HBO, Hulu, Videoland, Disney and more  ",
@@ -245,7 +263,6 @@
         "title": "6 months",
         "description": "6.66€/Mo",
         "price": "39.99",
-        "url": "https://digital-sales.mysellix.io/en/product/six-vip",
         "features": [
           "All devices are supported",
           "Netflix, HBO, Hulu, Videoland, Disney and more ",
@@ -263,7 +280,6 @@
         "title": "1 Year",
         "description": "3.99€/Mo",
         "price": "59.99",
-        "url": "https://digital-sales.mysellix.io/en/product/year-vip",
         "features": [
           "All devices are supported",
           "Netflix, HBO, Hulu, Videoland, Disney and more ",
@@ -277,11 +293,19 @@
         ]
       }
     ],
+      "sport-heading": "Ultimate Sports IPTV Service",
+      "sport-description": "Experience unmatched sports entertainment with over 2,000 channels offering diverse sports coverage and extensive channel options.",
+      "sport-features": [
+        "Diverse Sports: Enjoy football, basketball, motorsports, tennis, and much more.",
+        "Extensive Channel Selection: Access popular channels like Sky Sports, DAZN, Sport1, and Eurosport.",
+        "Live and On-Demand: Watch live games and catch up on missed matches in our extensive sports library.",
+        "High-Quality Streaming: Experience HD streaming for all your favorite sports events."
+      ],
     "setup-heading":"how it work ?",
     "setup-steps":[
       {
         "id": "0",
-        "title": "Place your order",
+        "title": "01-Place your order",
         "text": "Place your order by choosing your preferred subscription period : 1, 3, 6 or 12 months.",
         "date": "May 2023",
         "status": "done",
@@ -290,7 +314,7 @@
       },
       {
         "id": "1",
-        "title": "Login credentials",
+        "title": "02-Login credentials",
         "text": "Get your abonnement iptv login credentials that was delivered via email address.You also get a tutorial guide.",
         "date": "May 2023",
         "status": "progress",
@@ -298,7 +322,7 @@
       },
       {
         "id": "2",
-        "title": "Enjoy watching!",
+        "title": "03-Enjoy watching!",
         "text": "Enjoy all channels,movies and series now!",
         "date": "May 2023",
         "status": "done",
