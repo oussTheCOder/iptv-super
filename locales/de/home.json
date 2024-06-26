@@ -247,8 +247,7 @@
       "title": "1 Monat",
       "description": "Basis Plan",
       "price": "14.99",
-      "productId":"6676fe8674e2a",
-      "url": "https://digital-sales.mysellix.io/de/product/one-vip",
+      "productId":"667c2150064d8",
       "features": [
         "Alle Geräte werden unterstützt",
         "Netflix, HBO, Hulu, Videoland, Disney und mehr",
@@ -265,9 +264,8 @@
       "id": "1",
       "title": "3 Monate",
       "description": "9,99€/Mo ",
-      "url": "https://digital-sales.mysellix.io/de/product/three-vip",
       "price": "29.99",
-      "productId":"667a9e004f319",
+      "productId":"667c224070be0",
       "features": [
         "Alle Geräte werden unterstützt",
         "Netflix, HBO, Hulu, Videoland, Disney und mehr",
@@ -285,8 +283,7 @@
       "title": "6 Monate",
       "description": "6,66€/Mo ",
       "price": "39.99",
-      "productId":"667a9d5b432bc",
-      "url": "https://digital-sales.mysellix.io/de/product/six-vip",
+      "productId":"667c22700116e",
       "features": [
         "Alle Geräte werden unterstützt",
         "Netflix, HBO, Hulu, Videoland, Disney und mehr",
@@ -304,8 +301,7 @@
       "title": "1 Jahr",
       "description": "3,99€/Mo ",
       "price": "59.99",
-      "productId":"667a9d9f12366",
-      "url": "https://digital-sales.mysellix.io/de/product/year-vip",
+      "productId":"667c229d8e9d7",
       "features": [
         "Alle Geräte werden unterstützt",
         "Netflix, HBO, Hulu, Videoland, Disney und mehr",

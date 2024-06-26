@@ -24,6 +24,7 @@
     "hero-heading":"Digital IPTV - Your Premier IPTV Provider in Germany",
     "hero-sub-heading":"Buy Iptv Germany ? digital iptv provider is the king , Starts with 14.99€, access +24.000 channels and 160.000 movies and series with 24/7 support",
     "button-buy":"Buy IPTV",
+    "button-buy-now": "Buy Now",
     "trial-btn":"Free Trial",
     "sports-img":[
       {
@@ -213,8 +214,8 @@
             "id": "5",
             "title": "Satisfaction Guaranteed",
             "text": "Your satisfaction is guaranteed. We strive to provide you with the best streaming experience, and if you're not fully satisfied, we'll work to make it right or provide a refund.",
-           "backgroundUrl": "/assets/benefits/card-4.svg",
-           "iconUrl":"/assets/benefits/icon-4.svg",
+            "backgroundUrl": "/assets/benefits/card-4.svg",
+            "iconUrl":"/assets/benefits/icon-4.svg",
             "imageUrl":"/assets/benefits/image-2.webp",
             "light": true
           }
@@ -229,6 +230,7 @@
         "title": "One Month",
         "description": "14.99€/Mo Instead of 15.99€/Mo",
         "price": "14.99",
+        "productId":"6676fe8674e2a",
         "features": [
           "All devices are supported",
           "Netflix, HBO, Hulu, Videoland, Disney and more ",
@@ -246,6 +248,7 @@
         "title": "3 Months",
         "description": "9.99€/Mo",
         "price": "29.99",
+        "productId":"667a9e004f319",
         "features": [
           "All devices are supported",
           "Netflix, HBO, Hulu, Videoland, Disney and more  ",
@@ -263,6 +266,7 @@
         "title": "6 months",
         "description": "6.66€/Mo",
         "price": "39.99",
+        "productId":"667a9d5b432bc",
         "features": [
           "All devices are supported",
           "Netflix, HBO, Hulu, Videoland, Disney and more ",
@@ -280,6 +284,7 @@
         "title": "1 Year",
         "description": "3.99€/Mo",
         "price": "59.99",
+        "productId":"667a9d9f12366",
         "features": [
           "All devices are supported",
           "Netflix, HBO, Hulu, Videoland, Disney and more ",
