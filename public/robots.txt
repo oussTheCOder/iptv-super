@@ -1,5 +1,6 @@
 User-agent: *
-Disallow: /channels-list
+Disallow: /channels-list 
+Disallow: /installation-guide
 Allow: /
 Sitemap: https://www.digital-iptv.tech/sitemap.xml
 Sitemap: https://www.digital-iptv.tech/de/sitemap.xml
