@@ -26,6 +26,7 @@
     "button-buy":"Buy IPTV",
     "button-buy-now": "Buy Now",
     "trial-btn":"Free Trial",
+    "whatsApp-link":"https://wa.link/6lxi74",
     "sports-img":[
       {
         "id":"0",
@@ -230,6 +231,7 @@
         "title": "One Month",
         "description": "14.99€/Mo Instead of 15.99€/Mo",
         "price": "14.99",
+        "url":"https://digital-sales.mysellix.io/product/one-vip",
         "productId":"6676fe8674e2a",
         "features": [
           "All devices are supported",
@@ -248,6 +250,7 @@
         "title": "3 Months",
         "description": "9.99€/Mo",
         "price": "29.99",
+        "url":"https://digital-sales.mysellix.io/product/three-vip",
         "productId":"667a9e004f319",
         "features": [
           "All devices are supported",
@@ -266,6 +269,7 @@
         "title": "6 months",
         "description": "6.66€/Mo",
         "price": "39.99",
+        "url":"https://digital-sales.mysellix.io/product/six-vip",
         "productId":"667a9d5b432bc",
         "features": [
           "All devices are supported",
@@ -285,6 +289,7 @@
         "description": "3.99€/Mo",
         "price": "59.99",
         "productId":"667a9d9f12366",
+        "url":"https://digital-sales.mysellix.io/product/year-vip",
         "features": [
           "All devices are supported",
           "Netflix, HBO, Hulu, Videoland, Disney and more ",

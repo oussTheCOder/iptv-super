@@ -1,4 +1,5 @@
-import { SpeedInsights } from "@vercel/speed-insights/next"
+
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import './globals.css';
 import { Inter } from 'next/font/google';
 import i18nConfig from '@/i18nConfig';
@@ -20,13 +21,13 @@ export function generateStaticParams() {
 }
 
 export default function RootLayout({ children, params: { locale } }) {
+  
   return (
     <html lang={locale} dir={dir(locale)}>
-       <head>
-        <script src="https://cdn.sellix.io/static/js/embed.js" async></script>
-      </head>
-      <body className={inter.className}>{children}</body>
-      <SpeedInsights />
+      <body className={inter.className}>
+        {children}
+        <SpeedInsights />
+      </body>
     </html>
   );
 }

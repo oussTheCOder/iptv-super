@@ -47,7 +47,7 @@
   "button-buy": "IPTV kaufen",
   "button-buy-now": "kaufe jetzt",
   "trial-btn": "Testen",
-  "whatsApp-link":"https://wa.me/+19295603400",
+  "whatsApp-link":"https://wa.link/0v87ye",
   "sports-img":[
     {
       "id":"0",
@@ -247,6 +247,7 @@
       "title": "1 Monat",
       "description": "Basis Plan",
       "price": "14.99",
+      "url": "https://digital-sales.mysellix.io/de/product/eins-vip",
       "productId":"667c2150064d8",
       "features": [
         "Alle Geräte werden unterstützt",
@@ -265,7 +266,9 @@
       "title": "3 Monate",
       "description": "9,99€/Mo ",
       "price": "29.99",
+      "url": "https://digital-sales.mysellix.io/de/product/drei-vip",
       "productId":"667c224070be0",
+
       "features": [
         "Alle Geräte werden unterstützt",
         "Netflix, HBO, Hulu, Videoland, Disney und mehr",
@@ -283,6 +286,7 @@
       "title": "6 Monate",
       "description": "6,66€/Mo ",
       "price": "39.99",
+      "url": "https://digital-sales.mysellix.io/de/product/sechs-vip",
       "productId":"667c22700116e",
       "features": [
         "Alle Geräte werden unterstützt",
@@ -301,6 +305,7 @@
       "title": "1 Jahr",
       "description": "3,99€/Mo ",
       "price": "59.99",
+      "url": "https://digital-sales.mysellix.io/de/product/jahr-vip",
       "productId":"667c229d8e9d7",
       "features": [
         "Alle Geräte werden unterstützt",

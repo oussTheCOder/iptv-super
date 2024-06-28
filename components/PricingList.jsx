@@ -32,14 +32,14 @@ const PricingList = () => {
             )}
           </div>
 
-          <button
+          <a
             className="w-full mb-6 px-7 text-n-8 bg-white rounded-md  button  relative inline-flex items-center justify-center h-11 transition-colors hover:text-color-1"
-            data-sellix-product={item.productId}
-            type="submit"
-            alt="Buy Now with sellix"
+
+            href={item.url}
+            target='_blank'
           >
            {t("button-buy-now")} 
-          </button>
+          </a>
 
           <ul>
             {item.features.map((feature, index) => (
