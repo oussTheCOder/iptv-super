@@ -24,6 +24,9 @@ export default function RootLayout({ children, params: { locale } }) {
   
   return (
     <html lang={locale} dir={dir(locale)}>
+      <head>
+      <meta name="google-site-verification" content="2wUjNfw9f9GDGpUBInTpfHWXiNIul-AsgIsDGPmgNOc" />
+      </head>
       <body className={inter.className}>
         {children}
         <SpeedInsights />
