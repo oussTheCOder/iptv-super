@@ -3,15 +3,15 @@
    <url>
       <loc>https://www.digital-iptv.tech/</loc>
       <xhtml:link rel="alternate" hreflang="de" href="https://www.digital-iptv.tech/"/>
-      <xhtml:link rel="alternate" hreflang="en" href="https://www.digital-iptv.tech/en/"/>
+      <xhtml:link rel="alternate" hreflang="en" href="https://www.digital-iptv.tech/en"/>
       <lastmod>2024-06-19</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
    </url>
      <url>
-      <loc>https://www.digital-iptv.tech/en/</loc>
+      <loc>https://www.digital-iptv.tech/en</loc>
       <xhtml:link rel="alternate" hreflang="de" href="https://www.digital-iptv.tech/"/>
-      <xhtml:link rel="alternate" hreflang="en" href="https://www.digital-iptv.tech/en/"/>
+      <xhtml:link rel="alternate" hreflang="en" href="https://www.digital-iptv.tech/en"/>
       <lastmod>2024-06-19</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.9</priority> <!-- Slightly lower priority for English version -->
