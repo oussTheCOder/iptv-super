@@ -26,6 +26,7 @@ export default function RootLayout({ children, params: { locale } }) {
     <html lang={locale} dir={dir(locale)}>
       <head>
       <meta name="google-site-verification" content="2wUjNfw9f9GDGpUBInTpfHWXiNIul-AsgIsDGPmgNOc" />
+      <meta name="msvalidate.01" content="C1E307E771CCA1598F24D12A7E5CFE0C" />
       </head>
       <body className={inter.className}>
         {children}
