@@ -4,7 +4,7 @@ import initTranslations from '../../i18n';
 import TranslationsProvider from '@/components/TranslationsProvider'
 import Blogitem from '../../../components/blogs/Blogitem'
 import Heading from '../../../components/Heading'
-import Categories from '../../../components/blogs/categories'
+import Categories from '../../../components/blogs/Categories'
 
 
 // Define your dynamic routes at build time
