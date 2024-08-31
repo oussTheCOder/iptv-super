@@ -1,5 +1,6 @@
 
 import { SpeedInsights } from "@vercel/speed-insights/next";
+
 import './globals.css';
 import { Inter } from 'next/font/google';
 import i18nConfig from '@/i18nConfig';
