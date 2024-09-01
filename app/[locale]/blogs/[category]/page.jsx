@@ -1,24 +1,41 @@
 
-
 import React from 'react'
-import Link from 'next/link'
-import initTranslations from '../../i18n';
+import initTranslations from '../../../i18n';
 import TranslationsProvider from '@/components/TranslationsProvider'
-import Blogitem from '../../../components/blogs/Blogitem'
-import Heading from '../../../components/Heading'
-import Categories from '../../../components/blogs/Categories'
+import Blogitem from '../../../../components/blogs/Blogitem'
+import Heading from '../../../../components/Heading'
+import Categories from '../../../../components/blogs/Categories'
 
 
-// Define your dynamic routes at build time
-export async function generateStaticParams() {
-    const locales = ['de', 'en']; // Add all the locales you support here
-    return locales.map(locale => ({ locale }));
-  }
+  const supportedLocales = ['de' , 'en']; // List all supported locales
 
-export default async function page ({params:{locale}}){
-    const blogRes = await fetch(`https://local-ecom-back.onrender.com/api/blogs?populate=category,mainImage&locale=${locale}`);
+  // Define your dynamic routes at build time
+  export async function generateStaticParams() {
+        const paths = [];
+        for (const locale of supportedLocales){
+            const res = await fetch(`https://local-ecom-back.onrender.com/api/categories?locale=${locale}`)
+            const categoriesData = await  res.json();
+            const categories = categoriesData?.data || [] ;
+
+            categories.forEach((category)=>{
+                paths.push(
+                    {
+                        locale ,
+                        category : category?.attributes?.slug
+                    }
+                )
+            })
+
+        }
+        return paths;
+}
+  
+export default async function page ({params:{locale , category}}){
+    console.log(category)
+    const blogRes = await fetch(`https://local-ecom-back.onrender.com/api/blogs?populate=category,mainImage&locale=${locale}&filters[category][slug][$eq]=${category}`);
     const fetchedBlogData= await blogRes.json();
     const blogData = fetchedBlogData?.data;
+    // console.log('blog item data :', blogData)
     //
     const cateRes = await fetch(`https://local-ecom-back.onrender.com/api/categories?populate=category&locale=${locale}`);
     const fetchedCateData= await cateRes.json();
@@ -46,16 +63,10 @@ export default async function page ({params:{locale}}){
                         <div className='flex justify-center items-center '>
                             <div className='grid grid-cols-1 px-4 lg:grid-cols-2 lg:gap-10 '>
                                 {
-                                    blogData?.map(blog=>(
-                                     
-                                            <a key={blog.id} className='mb-8' href={`/blogs/${blog.attributes.category.data.attributes.slug}`}>
-                                                <Blogitem blogData={blog} />
-                                            </a>
-                                        
-                                        // <Blogitem  key={dataItem?.id} blogData={dataItem} />
+                                    blogData?.map(dataItem=>(
+                                        <Blogitem  key={dataItem?.id} blogData={dataItem} />
                                     ))
                                 }
-                               
                             </div>
                         </div>
                     </section>

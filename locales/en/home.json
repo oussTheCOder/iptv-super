@@ -17,9 +17,15 @@
     },
     {
       "id": "2",
-      "url": "/installation-guide",
-      "title": "Installation Guide"
+      "url": "/blogs/installation-guides",
+      "title": "Installation Guides"
+    },
+    {
+      "id": "3",
+      "url": "/blogs",
+      "title": "blogs"
     }
+
   ],
     "hero-heading":"Digital IPTV - Your Premier IPTV Provider in Germany",
     "hero-sub-heading":"Buy Iptv Germany ? digital iptv provider is the king , Starts with 14.99€, access +24.000 channels and 160.000 movies and series with 24/7 support",
