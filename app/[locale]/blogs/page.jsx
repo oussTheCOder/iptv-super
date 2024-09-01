@@ -15,9 +15,14 @@ export async function generateStaticParams() {
 
 
 export default async function page ({params:{locale}}){
-    const res = await fetch(`https://local-ecom-back.onrender.com/api/blogs?populate=category,mainImage&locale=${locale}`);
-    const fetchedData= await res.json();
-    const data = fetchedData?.data
+    const blogRes = await fetch(`https://local-ecom-back.onrender.com/api/blogs?populate=category,mainImage&locale=${locale}`);
+    const fetchedBlogData= await blogRes.json();
+    const blogData = fetchedBlogData?.data;
+    //
+    const cateRes = await fetch(`https://local-ecom-back.onrender.com/api/categories?populate=category&locale=${locale}`);
+    const fetchedCateData= await cateRes.json();
+    console.log(fetchedCateData)
+    const cateData = fetchedCateData?.data
    
     return (
         <>
@@ -41,7 +46,7 @@ export default async function page ({params:{locale}}){
                         <div className='flex justify-center items-center '>
                             <div className='grid grid-cols-1 px-4 lg:grid-cols-2 lg:gap-10 '>
                                 {
-                                    data?.map(dataItem=>(
+                                    blogData?.map(dataItem=>(
                                         <Blogitem  key={dataItem?.id} blogData={dataItem} />
                                     ))
                                 }
@@ -50,7 +55,7 @@ export default async function page ({params:{locale}}){
                     </section>
                     <section className='flex items-center px-4 justify-center'>
                         <div className='bg-gray-800 p-6 flex items-center justify-center w-80 rounded'>
-                            <Categories />
+                            <Categories data={cateData}/>
                         </div>
                     </section>
                 </div>

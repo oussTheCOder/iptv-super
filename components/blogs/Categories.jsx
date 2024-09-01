@@ -1,10 +1,14 @@
-'use client'
+
 import React from 'react'
 
- async function Categories() {
-    const res = await fetch(`https://local-ecom-back.onrender.com/api/categories`);
-    const fetchedData= await res.json();
-    const data = fetchedData?.data
+
+
+ async function Categories({data}) {
+    // const res = await fetch(`https://local-ecom-back.onrender.com/api/categories&locale=${locale}`);
+    // const fetchedData= await res.json();
+    // console.log(fetchedData)
+    // const data = fetchedData?.data
+
   return (
     <div>
         <h2 className='text-center mb-6'>Categories</h2>
