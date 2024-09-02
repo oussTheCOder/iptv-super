@@ -48,7 +48,7 @@ export default async function page ({params:{locale}}){
                                 {
                                     blogData?.map(blog=>(
                                      
-                                            <a key={blog.id} className='mb-8' href={`/blogs/${blog.attributes.category.data.attributes.slug}`}>
+                                            <a key={blog.id} className='mb-8' href={`/blogs/${blog.attributes.category.data.attributes.slug}/${blog.attributes.slug}`}>
                                                 <Blogitem blogData={blog} />
                                             </a>
                                         
