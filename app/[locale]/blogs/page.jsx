@@ -24,6 +24,7 @@ export default async function page ({params:{locale}}){
     const cateRes = await fetch(`https://local-ecom-back.onrender.com/api/categories?populate=category&locale=${locale}`);
     const fetchedCateData= await cateRes.json();
     const cateData = fetchedCateData?.data
+    console.log('ouss here :',cateData)
    
     return (
         <>

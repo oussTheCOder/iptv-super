@@ -69,8 +69,10 @@ export default async function page ({params:{locale , category}}){
                         <div className='flex justify-center items-center '>
                             <div className='grid grid-cols-1 px-4 lg:grid-cols-2 lg:gap-10 '>
                                 {
-                                    blogData?.map(dataItem=>(
-                                        <Blogitem  key={dataItem?.id} blogData={dataItem} />
+                                    blogData?.map(blog=>(
+                                        <a key={blog.id} className='mb-8' href={`/blogs/${blog.attributes.category.data.attributes.slug}/${blog.attributes.slug}`}>
+                                            <Blogitem  blogData={blog} />
+                                        </a>
                                     ))
                                 }
                             </div>

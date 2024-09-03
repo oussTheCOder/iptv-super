@@ -41,7 +41,7 @@ export default async function page ({params:{locale , category , blogTitleSlug}}
         <>
             <main>
                 <section className='h-[400px] mb-20 flex items-center flex-col p-4 justify-center bg-n-7'>
-                    <h1 className='text-5xl md:text-6xl mb-8 text-center'>{blogData?.attributes?.title}</h1>
+                    <h1 className='text-5xl max-w-screen-lg  md:text-6xl mb-8 text-center'>{blogData?.attributes?.title}</h1>
                     <div className="flex justify-center items-center gap-2">
                         <div className='flex items-center justify-center gap-1'>
                         {/* home svg */}
@@ -59,7 +59,7 @@ export default async function page ({params:{locale , category , blogTitleSlug}}
                         </div>
                     </div>
                 </section>
-                <div className='flex flex-col  gap-10 md:flex-row md:justify-around md:items-start'>
+                <div className='flex flex-col p-2 gap-10 lg:flex-row lg:justify-around lg:items-start'>
                     <section className=''>
                         <div className='max-w-screen-md'>
                             <MarkDownCom content={blogData?.attributes?.content} />
