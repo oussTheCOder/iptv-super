@@ -28,6 +28,7 @@
     "react-just-parallax": "^3.1.16",
     "react-markdown": "^9.0.1",
     "react-router-dom": "^6.23.0",
+    "rehype-raw": "^7.0.0",
     "remark-gfm": "^4.0.0",
     "scroll-lock": "^2.1.5",
     "sharp": "^0.33.4",

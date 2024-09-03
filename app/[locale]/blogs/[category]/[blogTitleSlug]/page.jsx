@@ -4,6 +4,7 @@ import initTranslations from '../../../../i18n';
 import TranslationsProvider from '@/components/TranslationsProvider'
 import Heading from '../../../../../components/Heading'
 import Categories from '../../../../../components/blogs/Categories'
+import MarkDownCom from '../../../../../components/blogs/MarkDownCom'
 const supportedLocales = ['de' , 'en']; // List all supported locales
   // Define your dynamic routes at build time
   export async function generateStaticParams() {
@@ -29,9 +30,9 @@ const supportedLocales = ['de' , 'en']; // List all supported locales
 export default async function page ({params:{locale , category , blogTitleSlug}}){
     console.log('category:' , category)
     console.log('blogTitleSlug:' ,blogTitleSlug)
-    const blogRes = await fetch(`https://local-ecom-back.onrender.com/api/blogs?populate=category,mainImage&locale=${locale}&filters[category][slug][$eq]=${category}&filters[slug][$eq]=${blogTitleSlug}`);
+    const blogRes = await fetch(`https://local-ecom-back.onrender.com/api/blogs?populate=category,slug,mainImage&locale=${locale}&filters[category][slug][$eq]=${category}&filters[slug][$eq]=${blogTitleSlug}`);
     const fetchedBlogData= await blogRes.json();
-    const blogData = fetchedBlogData?.data;
+    const [blogData] = fetchedBlogData?.data;
     console.log('blog item data :', blogData)
     const cateRes = await fetch(`https://local-ecom-back.onrender.com/api/categories?populate=category&locale=${locale}`);
     const fetchedCateData= await cateRes.json();
@@ -41,7 +42,6 @@ export default async function page ({params:{locale , category , blogTitleSlug}}
             <main>
                 <section className='h-[400px] mb-20 flex items-center flex-col p-4 justify-center bg-n-7'>
                     <h1 className='text-5xl md:text-6xl mb-8 text-center'>{blogData?.attributes?.title}</h1>
-                    <p className='text-center text-gray-400 mb-6 max-w-lg'>{blogData?.attributes?.overview}</p>
                     <div className="flex justify-center items-center gap-2">
                         <div className='flex items-center justify-center gap-1'>
                         {/* home svg */}
@@ -55,18 +55,14 @@ export default async function page ({params:{locale , category , blogTitleSlug}}
                         </div>
                         <div className='flex items-center justify-center gap-1'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 20 20" fill="none" stroke="#7c7c7e" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-                            <a href="/blogs" className='block font-light text-gray-300 hover:text-gray-500'>{blogData?.attributes?.category?.name}</a>
+                            <a href={`/blogs/${category}`} className='block font-light text-gray-300 hover:text-gray-500'>{blogData?.attributes?.category?.data?.attributes?.name}</a>
                         </div>
                     </div>
                 </section>
-                <div className='flex flex-col  gap-10 md:flex-row md:items-start'>
+                <div className='flex flex-col  gap-10 md:flex-row md:justify-around md:items-start'>
                     <section className=''>
-                        <div className='flex justify-center items-center '>
-                            <div className='grid grid-cols-1 px-4 lg:grid-cols-2 lg:gap-10 '>
-                                
-                                    {blogData?.attributes?.content}
-                                
-                            </div>
+                        <div className='max-w-screen-md'>
+                            <MarkDownCom content={blogData?.attributes?.content} />
                         </div>
                     </section>
                     <section className='flex items-center px-4 justify-center'>

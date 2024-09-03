@@ -16,9 +16,10 @@ export async function generateStaticParams() {
   }
 
 export default async function page ({params:{locale}}){
-    const blogRes = await fetch(`https://local-ecom-back.onrender.com/api/blogs?populate=category,mainImage&locale=${locale}`);
+    const blogRes = await fetch(`https://local-ecom-back.onrender.com/api/blogs?populate=category,mainImage,slug&locale=${locale}`);
     const fetchedBlogData= await blogRes.json();
     const blogData = fetchedBlogData?.data;
+    console.log(blogData)
     //
     const cateRes = await fetch(`https://local-ecom-back.onrender.com/api/categories?populate=category&locale=${locale}`);
     const fetchedCateData= await cateRes.json();
