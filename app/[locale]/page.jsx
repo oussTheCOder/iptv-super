@@ -7,7 +7,8 @@ import Pricing from '@/components/Pricing'
 import SportSection from '@/components/SportSection'
 import Roadmap from '@/components/Roadmap'
 import Services from '@/components/Services'
-import Footer from '@/components/Footer'
+import FooterComp from '@/components/FooterComp'
+import HeaderComp from '@/components/HeaderComp'
 import initTranslations from '../i18n';
 import TranslationsProvider from '@/components/TranslationsProvider'
 
@@ -23,14 +24,14 @@ export default async function Page({params: {locale}}){
       resources={resources}
     >
       <div className='pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden'>
-        <Header />
+        <HeaderComp locale={locale}/>
         <Hero />
         <Services />
         <Pricing />
         <SportSection />
         <Roadmap />
         <Benefits />
-        <Footer />
+        <FooterComp locale={locale}/>
       </div>
       <ButtonGradient />
     </TranslationsProvider>

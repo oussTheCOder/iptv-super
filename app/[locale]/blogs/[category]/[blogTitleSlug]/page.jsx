@@ -5,6 +5,9 @@ import TranslationsProvider from '@/components/TranslationsProvider'
 import Heading from '../../../../../components/Heading'
 import Categories from '../../../../../components/blogs/Categories'
 import MarkDownCom from '../../../../../components/blogs/MarkDownCom'
+import HeaderComp from'../../../../../components/HeaderComp'
+import FooterComp from'../../../../../components/FooterComp'
+import ButtonGradient from '@/public/assets/svg/ButtonGradient'
 const supportedLocales = ['de' , 'en']; // List all supported locales
   // Define your dynamic routes at build time
   export async function generateStaticParams() {
@@ -24,24 +27,25 @@ const supportedLocales = ['de' , 'en']; // List all supported locales
             })
            
         }
-        console.log('paths : ', paths)
+        // console.log('paths : ', paths)
         return paths;
 }
 export default async function page ({params:{locale , category , blogTitleSlug}}){
-    console.log('category:' , category)
-    console.log('blogTitleSlug:' ,blogTitleSlug)
+    // console.log('category:' , category)
+    // console.log('blogTitleSlug:' ,blogTitleSlug)
     const blogRes = await fetch(`https://local-ecom-back.onrender.com/api/blogs?populate=category,slug,mainImage&locale=${locale}&filters[category][slug][$eq]=${category}&filters[slug][$eq]=${blogTitleSlug}`);
     const fetchedBlogData= await blogRes.json();
     const [blogData] = fetchedBlogData?.data;
-    console.log('blog item data :', blogData)
+    // console.log('blog item data :', blogData)
     const cateRes = await fetch(`https://local-ecom-back.onrender.com/api/categories?populate=category&locale=${locale}`);
     const fetchedCateData= await cateRes.json();
     const cateData = fetchedCateData?.data
     return (
         <>
-            <main>
+            <HeaderComp locale={locale} />
+            <main className='my-24'>
                 <section className='h-[400px] mb-20 flex items-center flex-col p-4 justify-center bg-n-7'>
-                    <h1 className='text-5xl max-w-screen-lg  md:text-6xl mb-8 text-center'>{blogData?.attributes?.title}</h1>
+                    <h1 className='text-3xl max-w-screen-lg  md:text-5xl mb-8 text-center'>{blogData?.attributes?.title}</h1>
                     <div className="flex justify-center items-center gap-2">
                         <div className='flex items-center justify-center gap-1'>
                         {/* home svg */}
@@ -72,6 +76,8 @@ export default async function page ({params:{locale , category , blogTitleSlug}}
                     </section>
                 </div>
              </main>
+             <FooterComp locale={locale}/>
+            <ButtonGradient/>
         </>
     )
 }

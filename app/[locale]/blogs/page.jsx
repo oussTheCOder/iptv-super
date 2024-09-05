@@ -1,13 +1,16 @@
 
 
 import React from 'react'
+import ButtonGradient from '@/public/assets/svg/ButtonGradient'
 import Link from 'next/link'
 import initTranslations from '../../i18n';
 import TranslationsProvider from '@/components/TranslationsProvider'
 import Blogitem from '../../../components/blogs/Blogitem'
 import Heading from '../../../components/Heading'
 import Categories from '../../../components/blogs/Categories'
-
+import BlogHero from '../../../components/blogs/BlogHero'
+import HeaderComp from '/components/HeaderComp'
+import FooterComp from '/components/FooterComp'
 
 // Define your dynamic routes at build time
 export async function generateStaticParams() {
@@ -15,23 +18,30 @@ export async function generateStaticParams() {
     return locales.map(locale => ({ locale }));
   }
 
+const namespaces = ['blogsPage'];
 export default async function page ({params:{locale}}){
+    const {t , resources} = await initTranslations(locale , namespaces)
     const blogRes = await fetch(`https://local-ecom-back.onrender.com/api/blogs?populate=category,mainImage,slug&locale=${locale}`);
     const fetchedBlogData= await blogRes.json();
     const blogData = fetchedBlogData?.data;
-    console.log(blogData)
+    // console.log(blogData)
     //
     const cateRes = await fetch(`https://local-ecom-back.onrender.com/api/categories?populate=category&locale=${locale}`);
     const fetchedCateData= await cateRes.json();
     const cateData = fetchedCateData?.data
-    console.log('ouss here :',cateData)
    
     return (
         <>
-            <main>
+        <TranslationsProvider
+        namespaces={namespaces}
+        resources={resources}
+        locale={locale}
+          
+        >
+            <HeaderComp locale={locale}/>
+            <main className="my-24">
                 <section className='h-[400px] mb-20 flex items-center flex-col p-4 justify-center bg-n-7'>
-                    <h1 className='text-5xl md:text-6xl mb-8 text-center'>IPTV Digital Blogs</h1>
-                    <p className='text-center text-gray-400 mb-6 max-w-lg'>Welcome to the Digital Iptv Blog! Here, we share everything you need to know about IPTV. You'll find easy guides on how to set it up, the latest updates, news, and how to request a free trial. Whether you're new or experienced with IPTV, our blog has something for everyone.</p>
+                    <BlogHero />
                     <div className="flex justify-center items-center gap-2">
                         <div className='flex items-center justify-center gap-1'>
                         {/* home svg */}
@@ -68,6 +78,9 @@ export default async function page ({params:{locale}}){
                     </section>
                 </div>
              </main>
+             <FooterComp locale={locale}/>
+             <ButtonGradient/>
+        </TranslationsProvider>
         </>
     )
 

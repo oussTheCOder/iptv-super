@@ -1,0 +1,37 @@
+{
+  "footer-menu-title": "Menü",
+  "footer-contact-title": "Kontakte",
+  "whatsApp-link":"https://wa.me/+12338956041",
+  "footer-menu": [
+    {
+      "id": "0",
+      "link": "Startseite"
+    },
+    {
+      "id": "1",
+      "link": "Pläne"
+    }
+  ],
+  "navigation":[
+    {
+      "id":"0",
+      "url":"/",
+      "title":"Startseite"
+    },
+    {
+      "id":"1",
+      "url":"#pricing",
+      "title":"Preise"
+    },
+    {
+      "id":"2",
+      "url":"/blogs/installationsanleitungen",
+      "title":"installationsanleitungen"
+    },
+    {
+      "id": "3",
+      "url": "/blogs",
+      "title": "blogs"
+    }
+  ]
+}

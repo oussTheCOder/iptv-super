@@ -5,7 +5,9 @@ import TranslationsProvider from '@/components/TranslationsProvider'
 import Blogitem from '../../../../components/blogs/Blogitem'
 import Heading from '../../../../components/Heading'
 import Categories from '../../../../components/blogs/Categories'
-
+import HeaderComp from'../../../../components/HeaderComp'
+import FooterComp from'../../../../components/FooterComp'
+import ButtonGradient from '@/public/assets/svg/ButtonGradient'
 
   const supportedLocales = ['de' , 'en']; // List all supported locales
 
@@ -16,6 +18,8 @@ import Categories from '../../../../components/blogs/Categories'
             const res = await fetch(`https://local-ecom-back.onrender.com/api/categories?locale=${locale}`)
             const categoriesData = await  res.json();
             const categories = categoriesData?.data || [] ;
+            // console.log('ousscategories' , categories)
+
 
             categories.forEach((category)=>{
                 paths.push(
@@ -27,26 +31,37 @@ import Categories from '../../../../components/blogs/Categories'
             })
 
         }
+        // console.log("paths:" , paths)
         return paths;
 }
+
   
 export default async function page ({params:{locale , category}}){
-    console.log(category)
+    // console.log(category)
+    // console.log(categoryName)
     const blogRes = await fetch(`https://local-ecom-back.onrender.com/api/blogs?populate=category,mainImage&locale=${locale}&filters[category][slug][$eq]=${category}`);
     const fetchedBlogData= await blogRes.json();
     const blogData = fetchedBlogData?.data;
+ 
+    
     // console.log('blog item data :', blogData)
     //
     const cateRes = await fetch(`https://local-ecom-back.onrender.com/api/categories?populate=category&locale=${locale}`);
     const fetchedCateData= await cateRes.json();
     const cateData = fetchedCateData?.data
-   
+    //get the current Cate obj in order to retrieve categoryName
+    const [currentCategoryObj] = cateData.filter((cat)=>cat.attributes.slug===category)
+    // console.log('current',currentCategoryObj)
+    const categoryName = currentCategoryObj?.attributes?.name;
+    // console.log('currentname',categoryName)
+
+    
     return (
         <>
-            <main>
+            <HeaderComp locale={locale} />
+            <main className='my-24'>
                 <section className='h-[400px] mb-20 flex items-center flex-col p-4 justify-center bg-n-7'>
-                    <h1 className='text-5xl md:text-6xl mb-8 text-center'>IPTV Digital Blogs</h1>
-                    <p className='text-center text-gray-400 mb-6 max-w-lg'>Welcome to the Digital Iptv Blog! Here, we share everything you need to know about IPTV. You'll find easy guides on how to set it up, the latest updates, news, and how to request a free trial. Whether you're new or experienced with IPTV, our blog has something for everyone.</p>
+                    <h1 className='text-3xl md:text-5xl mb-8 text-center'>Category : {categoryName} </h1>
                     <div className="flex justify-center items-center gap-2">
                         <div className='flex items-center justify-center gap-1'>
                         {/* home svg */}
@@ -60,7 +75,7 @@ export default async function page ({params:{locale , category}}){
                         </div>
                         <div className='flex items-center justify-center gap-1'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 20 20" fill="none" stroke="#7c7c7e" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-                            <a href={`/blogs/${category}`} className='block font-light text-gray-300 hover:text-gray-500'>{category}</a>
+                            <a href={`/blogs/${category}`} className='block font-light text-gray-300 hover:text-gray-500'>{categoryName}</a>
                         </div>
                     </div>
                 </section>
@@ -85,6 +100,8 @@ export default async function page ({params:{locale , category}}){
                     </section>
                 </div>
              </main>
+             <FooterComp locale={locale}/>
+             <ButtonGradient />
         </>
     )
 

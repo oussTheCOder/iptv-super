@@ -1,0 +1,40 @@
+{
+
+    "navigation": [
+    {
+      "id": "0",
+      "url": "/",
+      "title": "Home"
+    },
+    {
+      "id": "1",
+      "url": "#pricing",
+      "title": "Pricing"
+    },
+    {
+      "id": "2",
+      "url": "/blogs/installation-guides",
+      "title": "Installation Guides"
+    },
+    {
+      "id": "3",
+      "url": "/blogs",
+      "title": "blogs"
+    }
+
+  ],
+  "whatsApp-link":"https://wa.me/+12338956041",
+    "footer-menu-title":"menu",
+    "footer-contact-title":"contacts",
+    "footer-menu":[
+      {
+        "id":"0",
+        "link":"Home"
+      },
+     
+      {
+        "id":"1",
+        "link":"Pricing"
+      }
+    ]
+  }

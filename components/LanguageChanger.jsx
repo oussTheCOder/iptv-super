@@ -13,6 +13,7 @@ export default function LanguageChanger() {
   const handleChange = e => {
     const newLocale = e.target.value;
 
+   
     // set cookie for next-i18n-router
     const days = 30;
     const date = new Date();
@@ -20,16 +21,33 @@ export default function LanguageChanger() {
     const expires = date.toUTCString();
     document.cookie = `NEXT_LOCALE=${newLocale};expires=${expires};path=/`;
 
+
+  
+
     // redirect to the new locale path
     if (
       currentLocale === i18nConfig.defaultLocale &&
       !i18nConfig.prefixDefault
     ) {
       router.push('/' + newLocale + currentPathname);
+      if(currentPathname.includes('/blogs') && currentPathname.length > 10){
+        router.push(
+          currentPathname.replace(`${currentPathname}`,'/blogs')
+        )
+        // router.push('/')
+      }
+     
     } else {
       router.push(
         currentPathname.replace(`/${currentLocale}`, `/${newLocale}`)
       );
+      if(currentPathname.includes('/blogs') && currentPathname.length > 10){
+        // router.push('/')
+        router.push(
+          currentPathname.replace(`${currentPathname}`,'/blogs')
+        )
+      }
+     
     }
 
     router.refresh();

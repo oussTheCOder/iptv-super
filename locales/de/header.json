@@ -1,0 +1,25 @@
+{
+    "button-buy": "IPTV kaufen",
+    "navigation":[
+    {
+      "id":"0",
+      "url":"/",
+      "title":"Startseite"
+    },
+    {
+      "id":"1",
+      "url":"#pricing",
+      "title":"Preise"
+    },
+    {
+      "id":"2",
+      "url":"/blogs/installationsanleitungen",
+      "title":"installationsanleitungen"
+    },
+    {
+      "id": "3",
+      "url": "/blogs",
+      "title": "blogs"
+    }
+  ]
+}

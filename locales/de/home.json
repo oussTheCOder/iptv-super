@@ -6,29 +6,6 @@
     "description": "Erleben Sie das ultimative Fernseherlebnis mit unserem IPTV Service. Freischalten Sie alle Sender und genießen Sie über 160000 Filme und Serien."
   }
   ,
-  
-  "navigation":[
-    {
-      "id":"0",
-      "url":"/",
-      "title":"Startseite"
-    },
-    {
-      "id":"1",
-      "url":"#pricing",
-      "title":"Preise"
-    },
-    {
-      "id":"2",
-      "url":"/blogs/installationsanleitungen",
-      "title":"installationsanleitungen"
-    },
-    {
-      "id": "3",
-      "url": "/blogs",
-      "title": "blogs"
-    }
-  ],
   "language-nav":[
     {
       "id":"0",
@@ -359,18 +336,6 @@
       "date": "June 2024",
       "status": "done",
       "imageUrl": "/assets/roadmap/image-3.webp"
-    }
-  ],
-  "footer-menu-title": "Menü",
-  "footer-contact-title": "Kontakte",
-  "footer-menu": [
-    {
-      "id": "0",
-      "link": "Startseite"
-    },
-    {
-      "id": "1",
-      "link": "Pläne"
     }
   ]
 }

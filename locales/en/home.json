@@ -4,29 +4,6 @@
     "title": "IPTV Germany , Buy Iptv with digital iptv provider",
     "description": "Buy Iptv Germany ? digital iptv provider is the king , Starts with 14.99€, access +24.000 channels and 160.000 movies and series with 24/7 support"
   },
-  "navigation": [
-    {
-      "id": "0",
-      "url": "/",
-      "title": "Home"
-    },
-    {
-      "id": "1",
-      "url": "#pricing",
-      "title": "Pricing"
-    },
-    {
-      "id": "2",
-      "url": "/blogs/installation-guides",
-      "title": "Installation Guides"
-    },
-    {
-      "id": "3",
-      "url": "/blogs",
-      "title": "blogs"
-    }
-
-  ],
     "hero-heading":"Digital IPTV - Your Premier IPTV Provider in Germany",
     "hero-sub-heading":"Buy Iptv Germany ? digital iptv provider is the king , Starts with 14.99€, access +24.000 channels and 160.000 movies and series with 24/7 support",
     "button-buy":"Buy IPTV",
@@ -344,18 +321,6 @@
         "status": "done",
         "imageUrl": "/assets/roadmap/image-3.webp"
       }
-    ],
-    "footer-menu-title":"menu",
-    "footer-contact-title":"contacts",
-    "footer-menu":[
-      {
-        "id":"0",
-        "link":"Home"
-      },
-     
-      {
-        "id":"1",
-        "link":"Pring"
-      }
     ]
+   
   }
