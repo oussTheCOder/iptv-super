@@ -39,7 +39,7 @@ const Hero = () => {
             <Button href="#pricing" white>
               {t('button-buy')}
             </Button>
-            <Button href={t('whatsApp-link')} target="_blank" >
+            <Button href={t('whatsApp-link-trial')} target="_blank" >
               {t('trial-btn')}
             </Button>
           </div>
