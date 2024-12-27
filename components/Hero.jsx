@@ -61,7 +61,7 @@ const Hero = () => {
             <SwiperSeries />
           </div>
           </div>
-          <ChannelsLogos className="relative z-10 mt-20" />
+          {/* <ChannelsLogos className="relative z-10 mt-20" /> */}
         </div>
   
         <BottomLine />
