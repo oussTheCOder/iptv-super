@@ -1,22 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+   <!-- Home URL with hreflang links -->
    <url>
-      <loc>https://www.digital-iptv.tech/</loc>
-      <xhtml:link rel="alternate" hreflang="de" href="https://www.digital-iptv.tech/"/>
+      <loc>https://www.digital-iptv.tech/</loc> <!-- Default locale (de) -->
+      <xhtml:link rel="alternate" hreflang="de" href="https://www.digital-iptv.tech/de"/>
       <xhtml:link rel="alternate" hreflang="en" href="https://www.digital-iptv.tech/en"/>
       <lastmod>2024-06-19</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
    </url>
-     <url>
+
+   <!-- English version -->
+   <url>
       <loc>https://www.digital-iptv.tech/en</loc>
-      <xhtml:link rel="alternate" hreflang="de" href="https://www.digital-iptv.tech/"/>
+      <xhtml:link rel="alternate" hreflang="de" href="https://www.digital-iptv.tech/de"/>
       <xhtml:link rel="alternate" hreflang="en" href="https://www.digital-iptv.tech/en"/>
       <lastmod>2024-06-19</lastmod>
       <changefreq>weekly</changefreq>
-      <priority>0.9</priority> <!-- Slightly lower priority for English version -->
+      <priority>0.9</priority>
    </url>
 
+   <!-- German version -->
+   <url>
+      <loc>https://www.digital-iptv.tech/de</loc>
+      <xhtml:link rel="alternate" hreflang="de" href="https://www.digital-iptv.tech/de"/>
+      <xhtml:link rel="alternate" hreflang="en" href="https://www.digital-iptv.tech/en"/>
+      <lastmod>2024-06-19</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.9</priority>
+   </url>
 </urlset>
+
+
 
 
